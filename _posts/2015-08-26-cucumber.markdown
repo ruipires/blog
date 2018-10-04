@@ -1,0 +1,44 @@
+---
+layout: post
+status: publish
+published: true
+title: Cucumber
+author:
+  display_name: Rui Pires
+  login: rui
+  email: rui@sennin.pt
+  url: http://www.sennin.pt
+author_login: rui
+author_email: rui@sennin.pt
+author_url: http://www.sennin.pt
+excerpt: "<p>I finally finished reading the &ldquo;<a href=\"https://pragprog.com/book/hwcuc/the-cucumber-book\">Cucumber
+  book</a>&rdquo;. I started reading this book a while ago.</p><p>Even before
+  I finished reading it I was already convinced of the benefits of human readable
+  executable specifications and started lobbying for its use in a project at work. I
+  succeeded (partially).</p><p><a href=\"https://cucumber.io/\">Cucumber</a>
+  is a <a href=\"https://www.ruby-lang.org/en/\">ruby</a> based
+  test tool that focuses on automated acceptance tests.</p><p>What this means is
+  that we can write the tests in a human readable way. Natural language is used, with
+  very few keywords mixed in the middle.</p>"
+wordpress_id: 621
+wordpress_url: http://www.sennin.pt/?p=621
+date: '2015-08-26 23:16:52 +0000'
+date_gmt: '2015-08-26 23:16:52 +0000'
+categories:
+- Books
+tags: []
+banner: '/assets/2015/cucumber.png'
+comments: []
+---
+<p>I finally finished reading the &ldquo;<a href="https://pragprog.com/book/hwcuc/the-cucumber-book">Cucumber book</a>&rdquo;. I started reading this book a while ago.</p>
+<p>Even before I finished reading it I was already convinced of the benefits of human readable executable specifications and started lobbying for its use in a project at work.&nbsp;I succeeded (partially).</p>
+<p><a href="https://cucumber.io/">Cucumber</a> is a <a href="https://www.ruby-lang.org/en/">ruby</a> based test tool that focuses on automated acceptance tests.</p>
+<p>What this means is that we can write the tests in a human readable way. Natural language is used, with very few keywords mixed in the middle.<a id="more"></a><a id="more-621"></a></p>
+<p><a href="https://cucumber.io/">Cucumber</a> then converts the human readable text into steps to drive the system. These steps are typically written in ruby and need to communicate with the system in some way (command line, web service, etc), but it is also possible to write them in other languages. Particularly interesting to me: you can write them directly in C++, with the <a href="https://github.com/cucumber/cucumber-cpp">cucumber-cpp project</a>.</p>
+<p>Keeping the actual test definitions free of implementation details allows&nbsp;the tests can&nbsp;be shared not just between testers and programmers, but also with the product owners (sometimes referred to as the stake holders).</p>
+<p>The goal is to have each&nbsp;tests laser focused on what functionality you are describing, and pushing the implementation and test setup details into other layers.</p>
+<p>In fact, what I enjoyed most of the book was not the actual tool itself (I am unable to use <a href="https://cucumber.io/">Cucumber</a> at work currently), nor the technical details of how to effectively use <a href="https://cucumber.io/">Cucumber</a>, but the emphasis on test clarity.</p>
+<p>In a way, it reminded me of how I felt when I first read <a href="https://sites.google.com/site/unclebobconsultingllc/books">Clean Code</a>.</p>
+<p>I couldn't convince our team to switch the test tool of choice (at least for the time being). We are sticking with <a href="http://robotframework.org/">Robot Framework</a>, and I was pleasingly surprised to find out it <a href="http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#behavior-driven-style">has support for the Cucumber syntax</a> for defining tests: <a href="https://github.com/cucumber/gherkin">Gherkin</a>.</p>
+<p>&nbsp;</p>
+<p>All in all, I highly recommend reading this book, even if you don't know ruby or don't see&nbsp;the need for these kinds of tests. You might just change your mind while reading the book.</p>

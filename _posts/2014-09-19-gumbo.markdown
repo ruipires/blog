@@ -1,0 +1,37 @@
+---
+layout: post
+status: publish
+published: true
+title: Gumbo
+author:
+  display_name: Rui Pires
+  login: rui
+  email: rui@sennin.pt
+  url: http://www.sennin.pt
+author_login: rui
+author_email: rui@sennin.pt
+author_url: http://www.sennin.pt
+excerpt: "Gumbo is, other&nbsp;than the <a href=\"http://en.wikipedia.org/wiki/Gumbo\">soup</a>&nbsp;and
+  an <a href=\"http://en.wikipedia.org/wiki/Dr._John%27s_Gumbo\">album
+  from Dr. John&nbsp;</a>,&nbsp;also a HTML5 parsing C (C99) <a href=\"https://github.com/google/gumbo-parser\">library</a>.\r\n\r\nIts
+  self contained (has no external dependencies), is resilient to badly formed html,
+  has a simple API and is reasonably fast.\r\n\r\n"
+wordpress_id: 461
+wordpress_url: http://www.sennin.pt/?p=461
+date: '2014-09-19 00:38:45 +0000'
+date_gmt: '2014-09-19 00:38:45 +0000'
+categories:
+- contributions
+tags: []
+comments: []
+---
+<p>Gumbo is, other&nbsp;than the <a href="http://en.wikipedia.org/wiki/Gumbo">soup</a>&nbsp;and an <a href="http://en.wikipedia.org/wiki/Dr._John%27s_Gumbo">album from Dr. John&nbsp;</a>,&nbsp;also a HTML5 parsing C (C99) <a href="https://github.com/google/gumbo-parser">library</a>.</p>
+<p>Its self contained (has no external dependencies), is resilient to badly formed html, has a simple API and is reasonably fast.</p>
+<p><a id="more"></a><a id="more-461"></a>I'm using it in a side project.</p>
+<p>I'm currently trying to find a way to use CMake's ExternalProject and the new target usage requirements added in 3.0 (<em>e.g.</em> automatically add compilation flags required by a library we link to). A&nbsp;way that pleases me, that is.</p>
+<p>While doing this, I found that gumbo had an issue compiling its benchmark target in mac osx (it was using clock_gettime with CLOCK_PROCESS_CPUTIME_ID).</p>
+<p>I opened an <a href="https://github.com/google/gumbo-parser/issues/259">issue</a>, and later proposed a <a href="https://github.com/google/gumbo-parser/pull/260">fix / pull request</a>.</p>
+<p>I used C++11's <a href="en.cppreference.com/w/cpp/chrono/high_resolution_clock">std::chrono::high_resolution_clock</a>.</p>
+<p>Not sure if it will be accepted, since my fix trades benchmark precision for code portability.</p>
+<p>At least I got it compile clean in my <a href="https://github.com/ruipires/gumbo-parser">fork</a>, so I can move on ;)</p>
+<p>&nbsp;</p>

@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: Happy 11111011111
+author:
+  display_name: Rui Pires
+  login: rui
+  email: rui@sennin.pt
+  url: http://www.sennin.pt
+author_login: rui
+author_email: rui@sennin.pt
+author_url: http://www.sennin.pt
+wordpress_id: 491
+wordpress_url: http://www.sennin.pt/?p=491
+date: '2015-01-08 01:03:00 +0000'
+date_gmt: '2015-01-08 01:03:00 +0000'
+categories:
+- rant
+tags: []
+comments: []
+---
+<p>A few hours before 2015 it dawned on me, and I couldn't help it but share it with those&nbsp;around me: 2015 in binary is 1111101111 which is a palindromic number.</p>
+<p>It seems this is not as interesting for a non geek crowd as I'd expect, but I found it interesting&nbsp;nonetheless.</p>
+<p>Happy 11111011111 everyone!</p>

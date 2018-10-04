@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: CppCast
+author:
+  display_name: Rui Pires
+  login: rui
+  email: rui@sennin.pt
+  url: http://www.sennin.pt
+author_login: rui
+author_email: rui@sennin.pt
+author_url: http://www.sennin.pt
+excerpt: "<p>I listen to few technology oriented podcasts, but up until recently I was
+  yet to find a podcast focusing on C++.<br/>This has changed now that I found <a href=\"http://cppcast.com/\">CppCast</a>.
+  Its tagline is \"The first podcast by C++ developers for C++ developers!\".</p><p>&nbsp;</p>"
+wordpress_id: 600
+wordpress_url: http://www.sennin.pt/?p=600
+date: '2015-04-08 23:21:43 +0000'
+date_gmt: '2015-04-08 23:21:43 +0000'
+categories:
+- c++
+- podcast
+tags: []
+banner: '/assets/2015/CppCast.png'
+comments: []
+---
+<p>I listen to few technology oriented podcasts, but up until recently I was yet to find a podcast focusing on C++.<br />
+This has changed now that I found <a href="http://cppcast.com/">CppCast</a>. Its tagline is "The first podcast by C++ developers for C++ developers!".</p>
+<p><a id="more"></a><a id="more-600"></a>I usually have a big backlog of podcast episodes to listen to, but <a href="http://cppcast.com/">CppCast</a> episodes are consumed as soon as they come out. Needless to say I have been enjoying the topics and how they are presented. The level of detail is just right to keep it interesting. High level enough to not be boring, but with enough details to actually be informative.</p>
+<p>Its a young podcast, as its only in its sixth episode, but it has already addressed some very important topics (in my oppinion).</p>
+<p>Here are a few, that happen to be areas I'm also currently interested in, but there is a lot more in each episode:<br />
+<a href="http://cppcast.com/2015/03/jason-turner/">Episode 2</a>: Boost libraries are now supported in biicode.</p>
+<p><a href="http://cppcast.com/2015/03/david-sankel/">Episode 3</a>: Cmake, Git.</p>
+<p>If you are interested in C++, do yourself a favor and subscribe.</p>

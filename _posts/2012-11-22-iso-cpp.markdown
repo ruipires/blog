@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: iso cpp
+author:
+  display_name: Rui Pires
+  login: rui
+  email: rui@sennin.pt
+  url: http://www.sennin.pt
+author_login: rui
+author_email: rui@sennin.pt
+author_url: http://www.sennin.pt
+wordpress_id: 254
+wordpress_url: http://www.sennin.pt/?p=254
+date: '2012-11-22 18:04:41 +0000'
+date_gmt: '2012-11-22 18:04:41 +0000'
+categories:
+- c++
+tags:
+- links
+comments: []
+---
+<p>If you are into C++ programming (<a href="http://www.google.com/search?q=modern+c%2B%2B">the modern kind</a>), and dont know <a href="http://isocpp.org">isocpp.org</a>, you&nbsp;definitively&nbsp;should.</p>
+<p><a href="http://isocpp.org">isocpp</a> stands for "Standard C++ Foundation" and is a not-for-profit organization, founded by a bunch of companies/organizations you might recognize:</p>
+<p>ARM, BD Software,&nbsp;Bloomberg,&nbsp;Dinkum Ware,&nbsp;DRW Trading group,&nbsp;Google, HP,&nbsp;HSA Foundation,&nbsp;IBM,&nbsp;Intel,&nbsp;Microsoft, OpenMP,&nbsp;Pearson,&nbsp;Plum Hall, Symbio, Vollmann Engineering.</p>
+<p>Not to mention the directors and officers of the organization, that include some names I highly respect and look up to.</p>
+<p>The goal is</p>
+<blockquote><p>&nbsp;to support the C++ software developer community and promote the understanding and use of modern Standard C++ on all compilers and platforms.</blockquote></p>
+<div>Sounds great to me!</div></p>

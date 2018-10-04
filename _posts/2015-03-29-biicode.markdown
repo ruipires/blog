@@ -1,0 +1,101 @@
+---
+layout: post
+status: publish
+published: true
+title: Biicode
+author:
+  display_name: Rui Pires
+  login: rui
+  email: rui@sennin.pt
+  url: http://www.sennin.pt
+author_login: rui
+author_email: rui@sennin.pt
+author_url: http://www.sennin.pt
+excerpt: "<p>I have been meaning to try <a href=\"https://www.biicode.com\">biicode</a>
+  for a while now.</p><p>I have heard about it in <a href=\"http://isocpp.org/blog/2014/12/biicode-2.0-is-out-biicode-team\">blog
+  posts</a>, in <a href=\"http://cppcast.com/2015/03/jason-turner/\">podcasts</a>,
+  and I have been looking for a <a href=\"http://www.sennin.pt/2014/03/23/cmake/\">tool</a>
+  <a href=\"http://www.sennin.pt/2013/09/28/nuget-for-c/\">like</a>
+  <a href=\"http://www.sennin.pt/2012/05/29/battle-of-the-build-systems/\">that</a>.</p><p>I
+  have finally taken the time to try it, and have published my very first block. Go
+  check it out!</p>"
+wordpress_id: 575
+wordpress_url: http://www.sennin.pt/?p=575
+date: '2015-03-29 23:30:05 +0000'
+date_gmt: '2015-03-29 23:30:05 +0000'
+categories:
+- tools
+- c++
+- cmake
+tags: []
+banner: '/assets/2015/honeycomb.png'
+comments:
+- id: 5707
+  author: drodri
+  author_email: diego@biicode.com
+  author_url: ''
+  date: '2015-03-30 10:36:04 +0000'
+  date_gmt: '2015-03-30 10:36:04 +0000'
+  content: "Thanks for sharing! It worked like a charm in Win with MinGW4.8, but didnt
+    in VS12, does deckbox loader works with VS? \r\nJust another thing, I had to manually
+    add your block to [requirements] because it is published as DEV, and DEV versions
+    are only \"find-able\" by their developers (the find policies can be also changed,
+    too). When it is reported to work in your desired platforms, you can freeze it
+    and make it findable with $ bii publish --tag=STABLE"
+- id: 5708
+  author: Manu343726
+  author_email: Manu343726@gmail.com
+  author_url: http://manu343726.github.io
+  date: '2015-03-30 10:50:56 +0000'
+  date_gmt: '2015-03-30 10:50:56 +0000'
+  content: "I'm glad you like biicode! We are working hard to stop relying on the
+    clipboard when writing C and C++.\r\n\r\nAbout Boost warnings, it's a known issue.
+    The problem is that the deps finding system was designed to take care of in-block
+    sources only. But when we started to work on huge libraries as Boost we started
+    to write hook-based blocks instead of hosting the whole library on biicode cloud.
+    You experienced it, this approach works like a charm, but the bii is still not
+    able to figure out where the Boost libs are (Actually ~/.biicode/boost/[BOOST
+    VERSION]) since these don't really belong to the biicode/boost block.\r\n\r\nNote
+    the boost hooks are OSS. One of the first things I submitted as an issue were
+    that warnings. I feel them annoying too. https://github.com/biicode/boost"
+- id: 5711
+  author: Rui Pires
+  author_email: rui@sennin.pt
+  author_url: ''
+  date: '2015-03-30 17:51:40 +0000'
+  date_gmt: '2015-03-30 17:51:40 +0000'
+  content: "I spend most of my time in either Linux or OS X. I also have to take a
+    deep look at Visual Studio community edition, so I'll see if it works there.\r\nI
+    don't expect any problems, but you never really know until you actually try.\r\nThank
+    you for the heads up about the DEV tag. It is reasonably functional, so I will
+    change it to STABLE soon."
+---
+<p>I have been meaning to try <a href="https://www.biicode.com">biicode</a> for a while now.</p>
+<p>I have heard about it in <a href="http://isocpp.org/blog/2014/12/biicode-2.0-is-out-biicode-team">blog posts</a>, in <a href="http://cppcast.com/2015/03/jason-turner/">podcasts</a>, and I have been looking for a <a href="http://www.sennin.pt/2014/03/23/cmake/">tool</a> <a href="http://www.sennin.pt/2013/09/28/nuget-for-c/">like</a> <a href="http://www.sennin.pt/2012/05/29/battle-of-the-build-systems/">that</a>.</p>
+<p>I have finally taken the time to try it, and have published my very first block. Go check it out!</p>
+<p><a id="more"></a><a id="more-575"></a></p>
+<p>Oh, what's a block? A block is what biicode calls to a piece of code you make available for others to reuse. I am used to spliting the software I write into fully independent pieces anyway, since it helps me reuse them later on. Now all I have to do is publish them to be able to use them in my other projects. For now biicode only supports public blocks, so this means I am also sharing them with anyone who wants to use them. I believe they are planning on following github's example and charging users for private repositores (or blocks in their case).</p>
+<p>My first block is a simple library to load csv files with Magic the Gathering collections exported from the <a href="http://deckbox.org">deckbox</a> website.</p>
+<p>It is licensed under the Boost Software License, and is available in <a href="https://github.com/ruipires/deckbox_loader">github</a> and in <a href="https://www.biicode.com/sennin/deckbox_loader">biicode</a>.</p>
+<p>Since I am using boost I have followed their <a href="http://blog.biicode.com/dependency-management-boost-libraries/">instructions for using boost with biicode</a>, and I have to say I am impressed.</p>
+<p>It worked like a charm. My single complaint about it is that I got some warning messages about unresolved dependencies.</p>
+<p>When I ran the bii find command I got presented with this:</p>
+<pre>INFO: Processing changes...<br />
+INFO: Finding missing dependencies in server<br />
+INFO: Looking for boost/spirit...<br />
+WARN: Can't find block candidate for: boost/spirit<br />
+INFO: Looking for boost/fusion...<br />
+WARN: Can't find block candidate for: boost/fusion<br />
+INFO: Analyzing compatibility for found dependencies...<br />
+</pre><br />
+It seems they have not yet fully mapped all the boost includes into the <a href="https://github.com/biicode/boost">boost biicode block</a>. Or maybe the message is just for header only boost sub libraries? I know I am being nitpicky here, but I hate warning messages (<a href="http://www.gotw.ca/publications/c++cs.htm">I know I'm not alone</a>).</p>
+<p>These unresolved dependencies are also visible in the <a href="https://www.biicode.com/sennin/deckbox_loader">web page representing my block</a> (just click "Block Dependencies").</p>
+<p>Overall I am very impressed with biicode and highly recommend anyone who is tired of messing with dependencies manually to try it out.</p>
+<p>Seeing biicode detect the dependencies from just the includes in my&nbsp;source files, downloading, configuring, compiling them&nbsp;and then handling all of the Cmakefile.txt generation and compiling my sources and linking the result with the dependencies it detected is a great experience (I was half expecting it to fail midway and ask me to do something manually).</p>
+<p>I have also tried out CLion (but I will leave that for another post). Both CLion and biicode use CMake as a foundation. They work very well together (and <a href="http://blog.jetbrains.com/clion/2015/03/when-clion-met-biicode/">work is&nbsp;being done to make sure they do</a>).</p>
+<p>A word of advise: if you are experimenting with biicode and plan on trying CLion on that project, make sure you specify the CLion layout when you initialize your biicode project.</p>
+<pre>bii init -l clion prj_name</pre><br />
+This will not harm your command line interactions with biicode and will ensure CLion will fully understand it.</p>
+<p>&nbsp;</p>
+<p>If you use my block, please let me know. Happy biicoding!</p>
+<p>&nbsp;</p>

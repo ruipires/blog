@@ -27,32 +27,6 @@ comments:
   date_gmt: '2015-03-29 23:30:08 +0000'
   content: "[&#8230;] have heard about it in blog posts, in podcasts, and I have been
     looking for a tool like [&#8230;]"
-- id: 5882
-  author: شركة نقل اثاث بالرياض
-  author_email: kandynew@zoho.com
-  author_url: http://56.yesweadvice.com
-  date: '2016-06-23 13:07:58 +0000'
-  date_gmt: '2016-06-23 13:07:58 +0000'
-  content: "People prefer to buy expensive carpet cleaning machines to help them in
-    cleaning without knowing the fact that \r\nthese are not as effective as professional
-    cleaners or steam cleaner rentals.\r\nNot all janitorial service companies will
-    be \r\nprospects who can provide the kind, frequency and volume of cleaning \r\nservices
-    you necessitate; as an example, if you function in a \r\nhealth-related clinic,
-    you'll need to hire someone that can tend \r\nto your unique needs or have prior
-    experience in another comparable setting.\r\nThe best thing about these cleaning
-    services \r\nis that these are not just limited to rich and high class people."
-- id: 5883
-  author: ''
-  author_email: eulahplain@gawab.com
-  author_url: http://thesimplepen.com/couponstotroops-guest-post-what-to-do-with-expired-coupons/
-  date: '2016-06-25 02:22:17 +0000'
-  date_gmt: '2016-06-25 02:22:17 +0000'
-  content: "Consummate carpet care business plans will focus on choosing the right
-    business segment, advance budgeting and financing plans, and a well defined marketing,
-    advertising and operational strategy.\r\nFor example, updating an inventory to
-    new sets of data to remove mean that there can be 15-25% cost reduction. Cleaning
-    in schools includes \r\nboth inside and outside buildings, in addition to glass,
-    recreational areas and bathrooms."
 ---
 <p><a href="http://www.cmake.org"><img class="alignright" alt="" src="http://www.cmake.org/opensourcelogos/cmake100.png" width="252" height="100" /></a></p>
 <p>Another page on the <a title="Battle of the build systems" href="http://www.sennin.pt/2012/05/29/battle-of-the-build-systems/">battle of build systems</a>, I am now moving on to CMake, after giving SCons a try.</p>

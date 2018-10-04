@@ -67,36 +67,6 @@ comments:
   content: |-
     I'm not really following NAcL at the moment, so I'm not sure what would need to be adapted to make it up to date.
     I'll try to get around and test it. If you happen to do it yourself, or find out what needs to be done, please let me know.
-- id: 5896
-  author: viagrabestbuy
-  author_email: margerywillingham@inbox.com
-  author_url: http://dubaidesertsafarioffer.com/
-  date: '2016-09-19 16:16:53 +0000'
-  date_gmt: '2016-09-19 16:16:53 +0000'
-  content: "Howdy! Someone in my Facebook group shared \r\nthis website with us so
-    I came to take a look. I'm definitely enjoying the information. I'm book-marking
-    and will be tweeting this \r\nto my followers! Outstanding blog and outstanding
-    design and style."
-- id: 5899
-  author: desert safari
-  author_email: milanbuckner@web.de
-  author_url: http://www.deserttoursdubai.com/
-  date: '2016-10-27 10:35:21 +0000'
-  date_gmt: '2016-10-27 10:35:21 +0000'
-  content: "I was wondering if you ever considered changing the structure of your
-    site?\r\nIts very well written; I love what youve got to say.\r\nBut maybe you
-    could a little more in the way of content so people could connect with it \r\nbetter.
-    Youve got an awful lot of text for only having one or two \r\nimages. Maybe you
-    could space it out better?"
-- id: 5908
-  author: uon
-  author_email: deandrelain@zoho.com
-  author_url: http://www.uonbi.ac.ke/
-  date: '2017-01-05 12:33:23 +0000'
-  date_gmt: '2017-01-05 12:33:23 +0000'
-  content: "Your style is very unique compared to other people I have \r\nread stuff
-    from. Thanks for posting when you have the \r\nopportunity, Guess I'll just book
-    mark this blog."
 ---
 <p>I have been looking into <a href="https://developers.google.com/native-client/">chrome's native client</a>&nbsp;(NaCl).</p>
 <p>My goal is to be able to use it as an adaptation layer to run code on the browser, while keeping it as portable as possible.</p>

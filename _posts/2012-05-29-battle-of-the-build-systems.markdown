@@ -44,34 +44,6 @@ comments:
   date_gmt: '2014-03-23 17:14:33 +0000'
   content: "[&#8230;] page on the battle of build systems, I am now moving on to CMake,
     after giving SCons a [&#8230;]"
-- id: 5866
-  author: Pornoreino amazing
-  author_email: christel.hutchins@gmail.com
-  author_url: http://Pt.Pornoreino.com/videos/lusty-babe-con-tetas-gigantes-rango-el-montante-de
-  date: '2016-04-30 12:49:03 +0000'
-  date_gmt: '2016-04-30 12:49:03 +0000'
-  content: "En esta internet solo encontrar&aacute;s videos dde sexo one hundred%
-    casero y amateur \r\ny por tanto nadda grabado por profesionales, eso s&iacute;,
-    los videos XXX son totalmente gratis y disponibles para ver online en ordenador,
-    tablet m&oacute;vil."
-- id: 5897
-  author: Layne91
-  author_email: fredericksheehan@yahoo.com
-  author_url: http://google.de
-  date: '2016-10-22 06:57:43 +0000'
-  date_gmt: '2016-10-22 06:57:43 +0000'
-  content: "I see your page is in the same niche like my site. Do \r\nyou allow guest
-    posting? I can write excellent \r\ncontent for you. Let me know if you are interested."
-- id: 5904
-  author: Byron
-  author_email: giselle_mcewen@gmail.com
-  author_url: https://giganetwebhosting.com/unlimitedwebhosting/web-hosting
-  date: '2016-12-10 04:38:05 +0000'
-  date_gmt: '2016-12-10 04:38:05 +0000'
-  content: "I am really inspired wit your writing talents as \r\nneatly as with the
-    structure on your weblog.\r\nIs that this a paid topic or did you customize it
-    your self?\r\nAnyway keep up the excellent quality writing, it is uncommon to
-    seee a great blog like this one nowadays.."
 ---
 <p>[caption id="" align="aligncenter" width="500" caption="Picture by Minnesota Historical Society"]<a title="State Capitol Toolbox by Minnesota Historical Society" href="http://www.flickr.com/photos/minnesotahistoricalsociety/5494632378/"><img class="alignnone" src="http://farm6.staticflickr.com/5252/5494632378_e32b3d6020.jpg" alt="" width="500" height="300" /></a>[/caption]</p>
 <p>I wonder if this whole post is just me being too picky with something so often dismissed as an after thought.</p>

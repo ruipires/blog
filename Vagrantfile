@@ -19,8 +19,8 @@ Vagrant.configure("2") do |config|
 #    echo "*** apt-get upgrade"
 #    apt-get upgrade -y
 
-#    echo "*** Installing build-essential"
-#    apt-get install -y build-essential
+    echo "*** Installing build-essential"
+    apt-get install -y build-essential
 
     echo "*** Installing ruby"
     apt-get install -y ruby

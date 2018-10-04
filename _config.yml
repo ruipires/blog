@@ -29,13 +29,16 @@ paginate: 5
 # Build settings
 markdown: kramdown
 highlighter: true
-# theme: minima
+theme: minima
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - LICENSE
+  - README.md
+  - Vagrantfile
 plugins_dir:
   - jekyll-paginate
   - _plugins

@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Native client SDL example
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -75,7 +71,7 @@ comments:
 <p>After going through the <a href="https://developers.google.com/native-client/devguide/tutorial">getting started tutorial</a> and reading some of the <a href="https://developers.google.com/native-client/sdk/examples">examples</a>, it was time to get <a href="http://www.libsdl.org/">SDL</a> working.</p>
 <p>I did have to make sure the nacl tools were working in my fresh 64 bit VM, since they are 32 bits binaries. I'm running ubuntu, so all I needed to do was install 32 bit libraries by running:</p>
 <pre>sudo apt-get install ia32-libs</pre><br />
-Next I had to <a href="http://code.google.com/p/naclports/wiki/HowTo_Checkout">check-out</a> and install naclports and <a href="http://code.google.com/p/naclports/wiki/InstallingSDL">compile the SDL port</a>. This was relatively easy to do.</p>
+<p>Next I had to <a href="http://code.google.com/p/naclports/wiki/HowTo_Checkout">check-out</a> and install naclports and <a href="http://code.google.com/p/naclports/wiki/InstallingSDL">compile the SDL port</a>. This was relatively easy to do.</p>
 <p>Now came the tricky part.</p>
 <p>The naclports are a collection of patches to specific versions of the original projects. For SDL the port is for version 1.2.14.</p>
 <p>I followed the documentation on the nacl site on <a href="https://developers.google.com/native-client/community/porting/SDLgames">how to port SDL games</a>.&nbsp;I found this page to be a bit lacking in details, but I managed to fill in the blanks and get an example to compile.</p>
@@ -88,12 +84,11 @@ Next I had to <a href="http://code.google.com/p/naclports/wiki/HowTo_Checkout">c
 <p>I changed the Makefile to compile both 64 and 32 bit nexes, based on the Makefiles in the nacl sdk examples. I didn't like how it turned out (the Makefile), but I'm still <a title="Battle of the build systems" href="http://www.sennin.pt/2012/05/29/battle-of-the-build-systems/">looking for a new build system to adopt</a>. Make looks more than OK for a simple example.</p>
 <p>You can find the <a href="https://github.com/ruipires/sdltest">fork here</a>. And it works!</p>
 <p>Just check out and run:</p>
-<pre>make</pre></p>
-<pre>./httpd.py</pre></p>
+<pre>make</pre>
+<pre>./httpd.py</pre>
 <pre>google-chrome --enable-nacl http://localhost:5103/sdltest.html</pre><br />
-(I'm assuming you are running linux)</p>
+<p>(I'm assuming you are running linux)</p>
 <p>You should see something like this:</p>
-<p><a href="http://www.sennin.pt/wp-content/uploads/2012/06/nacl-sdl-example.png"><img class="alignnone size-full wp-image-216" title="nacl sdl example" src="http://www.sennin.pt/wp-content/uploads/2012/06/nacl-sdl-example.png" alt="nacl sdl example" width="799" height="652" /></a></p>
-<p>&nbsp;</p>
+<p><img title="nacl sdl example" src="{{ site.baseurl }}/assets/2012/nacl-sdl-example.png" alt="nacl sdl example" width="799" height="652" /></p> <p>&nbsp;</p>
 <p>Enjoy ;)</p>
 <p>&nbsp;</p>

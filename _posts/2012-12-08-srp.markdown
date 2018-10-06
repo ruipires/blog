@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Please, please, follow the SRP principle
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -39,29 +35,29 @@ comments: []
 Here are my counter arguments, and some quotes from "uncle" <a href="http://www.cleancoder.com/">Bob Martin</a>'s book Clean Code.</p>
 <p>Please feel free to comment, agreeing or disagreeing with me. I do love to change my mind, when I feel I'm learning in the process.</p>
 <h2>1.&nbsp;Too many files will make the system hard to reason and work with.</h2><br />
-I'll start by quoting Bob Martin:</p>
-<blockquote><p>"a system with many small classes has no more moving parts than a system with a few large classes. (...) Do you want your tools organized into toolboxes with many small drawers each containing well-defined and well-labeled components? Or do you want a few drawers that you just toss everything into?"</blockquote><br />
-I strongly believe that if the class names are carefully chosen, the system tends to get easier to understand. You suddenly start feeling more productive, and it's because you don't have to read all of the code all of the time. So yes, SRP will lead to a cleaner design, which in turn will improve code clarity and legibility.</p>
+I'll start by quoting Bob Martin:
+<blockquote>"a system with many small classes has no more moving parts than a system with a few large classes. (...) Do you want your tools organized into toolboxes with many small drawers each containing well-defined and well-labeled components? Or do you want a few drawers that you just toss everything into?"</blockquote><br />
+I strongly believe that if the class names are carefully chosen, the system tends to get easier to understand. You suddenly start feeling more productive, and it's because you don't have to read all of the code all of the time. So yes, SRP will lead to a cleaner design, which in turn will improve code clarity and legibility.
 <h2>2. Dividing this into smaller classes is a waste of time, because you will never reuse such a simple behavior elsewhere.</h2><br />
-This is in fact just the opposite. Consider you have a big, complex class, and several simpler ones. Which ones do you think is more likely to be reused ? Yes, by having smaller classes, you will make code reuse much more likely. It is so much simpler to just use an already tested class, that you know exists in your code base than a block of code that is mixed with other concerns, deep in the middle of another big class, that does a lot more stuff.</p>
+This is in fact just the opposite. Consider you have a big, complex class, and several simpler ones. Which ones do you think is more likely to be reused ? Yes, by having smaller classes, you will make code reuse much more likely. It is so much simpler to just use an already tested class, that you know exists in your code base than a block of code that is mixed with other concerns, deep in the middle of another big class, that does a lot more stuff.
 <h2>3. You will loose sight of what code is actually being executed, with so many small pieces involved.</h2><br />
-Well, let me repeat the first quote from Bob Martin.&nbsp;"a system with many small classes has no more moving parts than a system with a few large classes". If you don't overgeneralize just for the sake of it, you should end up with roughly the same overall complexity (or maybe less), but with a much cleaner design and implementation.</p>
+Well, let me repeat the first quote from Bob Martin.&nbsp;"a system with many small classes has no more moving parts than a system with a few large classes". If you don't overgeneralize just for the sake of it, you should end up with roughly the same overall complexity (or maybe less), but with a much cleaner design and implementation.
 <p>Remember, choosing a class name is extremely important. Some consider it an art. Doing so will make your life a lot easier when reading the code. And to quote &nbsp;Bob Martin (again):</p>
-<blockquote><p>"If we cannot derive a concise name for a class, then it's likely too large".</blockquote><br />
-Think of all those overly generic names you have surely seen around like "XyzManager" and "XyzHandler", what do those classes do ?</p>
+<blockquote>"If we cannot derive a concise name for a class, then it's likely too large".</blockquote><br />
+Think of all those overly generic names you have surely seen around like "XyzManager" and "XyzHandler", what do those classes do ?
 <h2>4.&nbsp;It is working now, there is no need to change it.</h2><br />
-Remember that code will start to rot if you don't keep it clean and keep improving and refactoring it. And if you are discussing this, chances are it is not as clean as it should be. If you refactor it into several smaller classes each with a clear responsibility, you will improve code clarity, testability, reusability, etc.</p>
+Remember that code will start to rot if you don't keep it clean and keep improving and refactoring it. And if you are discussing this, chances are it is not as clean as it should be. If you refactor it into several smaller classes each with a clear responsibility, you will improve code clarity, testability, reusability, etc.
 <h2>5. You will write more code that way</h2><br />
-You will end up with more methods and classes, but they will all be simple. As for the total size, that should be smaller in fact, because you will be able to reuse code in a lot more places than you used to.</p>
+You will end up with more methods and classes, but they will all be simple. As for the total size, that should be smaller in fact, because you will be able to reuse code in a lot more places than you used to.
 <h2>6. Using SRP is not realistic in a real, complex, project</h2><br />
-It is not only possible, it has been done. Now, refactoring a complex code base to make it comply with SRP will not be an easy task, but will surely pay of.</p>
+It is not only possible, it has been done. Now, refactoring a complex code base to make it comply with SRP will not be an easy task, but will surely pay of.
 <h2>7. This is just adding (runtime) overhead, because you will need to instantiate more objects and call more methods to get the job done.</h2><br />
-This is a somewhat hard argument to counter, because it is, in my oppinion, the one that has more truth to it. But, like everything, it is debatable. And I normally present these counter-arguments:</p>
+This is a somewhat hard argument to counter, because it is, in my oppinion, the one that has more truth to it. But, like everything, it is debatable. And I normally present these counter-arguments:
 <p>- Giving up SRP for this reason is premature optimization. And we all know that is the root of all evil.</p>
 <p>- Depending on the language being used, the compiler may optimize the method calls. If there is one use case for compilers to optimize, it method calls to simple methods.</p>
 <p>- Sometimes, even with all of this separation, the complex system will waste more resources, because optimizing it is a lot harder due to its sheer complexity.</p>
 <p>Let me finish by quoting Bob Martin's Clean Code again. Yes, I love this <a href="https://sites.google.com/site/unclebobconsultingllc/books/clean-code-a-handbook-of-agile-software-craftsmanship">book</a>. If you haven't read it and are serious about programing and producing good code, your really should read it.</p>
-<blockquote><p>"SRP is one of the more important concepts in OO design. It's also one of the simpler concepts to understand and adhere to. Yet oddly, SRP is often the most abused class design principle. We regularly encounter classes that do far too many things. Why? Getting software to work and making software clean are two very different activities."</blockquote><br />
-&nbsp;</p>
+<blockquote>"SRP is one of the more important concepts in OO design. It's also one of the simpler concepts to understand and adhere to. Yet oddly, SRP is often the most abused class design principle. We regularly encounter classes that do far too many things. Why? Getting software to work and making software clean are two very different activities."</blockquote><br />
+
 <p>In the end, remember SRP is just a principle, not a strict rule. Just don't give up on it too quickly.</p>
 <p>Please forgive me for the rant, but I needed to write it because I love my work, and love to write (and read by the way) clean, elegant code. When I need to work my way through a byzantine labyrinth of code filled with special cases (some of them introduced not by necessity, but intentionally by design!) making it that much harder to read and reason about, I get upset, and start thinking of ways to vent my frustation.</p>

@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Battle of the build systems
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -45,13 +41,12 @@ comments:
   content: "[&#8230;] page on the battle of build systems, I am now moving on to CMake,
     after giving SCons a [&#8230;]"
 ---
-<p>[caption id="" align="aligncenter" width="500" caption="Picture by Minnesota Historical Society"]<a title="State Capitol Toolbox by Minnesota Historical Society" href="http://www.flickr.com/photos/minnesotahistoricalsociety/5494632378/"><img class="alignnone" src="http://farm6.staticflickr.com/5252/5494632378_e32b3d6020.jpg" alt="" width="500" height="300" /></a>[/caption]</p>
 <p>I wonder if this whole post is just me being too picky with something so often dismissed as an after thought.</p>
 <h1>&nbsp;What build system to use?</h1><br />
-There certainly are no shortage of choices, and that abundance tends to make finding the right answer though!</p>
+<p>There certainly are no shortage of choices, and that abundance tends to make finding the right answer though!</p>
 <p>This&nbsp;dilemma&nbsp;makes me loose more time than I'd wish pondering about what build system to use on any new non trivial project.</p>
 <h1>What I'm looking for</h1><br />
-These are the characteristics I normally look for in a build system:</p>
+<p>These are the characteristics I normally look for in a build system:</p>
 <p><strong>Cross platform</strong></p>
 <p>The tool should be able to run on multiple operating systems. Or at the very least support Linux and Windows. Mac OS support here is, for me, still only a plus, since I'm not using that platform (yet).</p>
 <p><strong>Support cross compilation</strong></p>
@@ -82,7 +77,7 @@ These are the characteristics I normally look for in a build system:</p>
 <p><strong>Should be actively developed and supported</strong></p>
 <p>It is normal that with such an abundance of choice, some tools will be more actively used, supported and developed than others.</p>
 <p>Choosing one that is updated regularly seems like a good idea to me.</p>
-<h1>What's available</h1></p>
+<h1>What's available</h1>
 <ul>
 <li>GNU Make -&nbsp;<a href="http://www.gnu.org/software/make/">http://www.gnu.org/software/make/</a></li>
 <li>CMake -&nbsp;<a href="http://www.cmake.org/">http://www.cmake.org/</a></li>
@@ -97,6 +92,6 @@ These are the characteristics I normally look for in a build system:</p>
 <li>Ninja -&nbsp;<a href="http://neugierig.org/software/chromium/notes/2011/02/ninja.html">http://neugierig.org/software/chromium/notes/2011/02/ninja.html</a></li>
 <li>WAF -&nbsp;<a href="http://code.google.com/p/waf/">http://code.google.com/p/waf/</a></li><br />
 </ul><br />
-I have tried to list the tools I knew, plus a few I recommended or found out while looking for better alternatives.</p>
+<p>I have tried to list the tools I knew, plus a few I recommended or found out while looking for better alternatives.</p>
 <p>Have I forgotten something? Any suggestions?</p>
 <p>In future posts I will go over these tools and try to decide on one that suits my needs.</p>

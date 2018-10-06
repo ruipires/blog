@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Battle of the Build Systems - GNU Make
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -20,8 +16,8 @@ categories:
 tags: []
 comments: []
 ---
-<p style="text-align: center;"><a href="http://www.sennin.pt/wp-content/uploads/2012/05/swordfish.jpg"><img class="size-full wp-image-194 aligncenter" title="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." src="http://www.sennin.pt/wp-content/uploads/2012/05/swordfish.jpg" alt="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." width="652" height="315" /></a></p><br />
-Following my <a title="Battle of the build systems" href="http://www.sennin.pt/?p=19">previous post</a> where I described what I was looking for in a build system, here I take a look at GNU make, and why I'm not using it.</p>
+<p style="text-align: center;"><img title="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." src="{{ site.baseurl }}/assets/2012/swordfish.jpg" alt="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." width="652" height="315" /></a></p><br />
+<p>Following my <a title="Battle of the build systems" href="http://www.sennin.pt/?p=19">previous post</a> where I described what I was looking for in a build system, here I take a look at GNU make, and why I'm not using it.</p>
 <p>&nbsp;</p>
 <p><strong>GNU Make</strong></p>
 <p>http://www.gnu.org/software/make/</p>

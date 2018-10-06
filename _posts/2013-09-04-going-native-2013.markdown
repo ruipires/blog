@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Going Native 2013
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -22,4 +18,4 @@ comments: []
 ---
 <p>For anyone who stumbles upon this, I'm currently enjoying the streaming presentations from this year's edition of GoingNative.<br />
 You can find it here <a href="http://channel9.msdn.com/">http://channel9.msdn.com/</a> for now. You can still see the past presentations. I hope they keep them all available online (I guess they will be <a href="http://channel9.msdn.com/Events/GoingNative/2013">here</a>)</p>
-<p>[caption id="attachment_372" align="aligncenter" width="220"]<a href="http://channel9.msdn.com/"><img class="size-full wp-image-372" alt="GoingNative 2013" src="http://www.sennin.pt/wp-content/uploads/2013/09/goingnative2013.png" width="220" height="165" /></a> GoingNative 2013[/caption]</p>
+<p><a href="http://channel9.msdn.com/"><img alt="GoingNative 2013" src="{{ site.baseurl }}/assets/2013/goingnative2013.png" width="220" height="165" /></a> GoingNative 2013</p>

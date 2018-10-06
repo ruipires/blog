@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: iso cpp
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -27,4 +23,4 @@ comments: []
 <p>Not to mention the directors and officers of the organization, that include some names I highly respect and look up to.</p>
 <p>The goal is</p>
 <blockquote><p>&nbsp;to support the C++ software developer community and promote the understanding and use of modern Standard C++ on all compilers and platforms.</blockquote></p>
-<div>Sounds great to me!</div></p>
+<div>Sounds great to me!</div>

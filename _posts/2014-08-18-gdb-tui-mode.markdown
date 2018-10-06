@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: GDB TUI mode
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -31,4 +27,4 @@ comments: []
 <p>But I found an <a href="http://stackoverflow.com/questions/4362581/get-gdb-to-do-a-list-after-every-step">answer on <em>stackoverflow</em></a> that mentioned <a href="https://sourceware.org/gdb/onlinedocs/gdb/TUI-Overview.html#TUI-Overview"><em>gdb's </em>TUI&nbsp;mode</a>.</p>
 <p>TUI stands for Text User Interface, and is a sort of <em>ncurses</em> UI built right into vanilla <em>gdb</em>.</p>
 <p>You access it by pressing C-x A. And <em>voila</em>&nbsp;: you can now debug while seeing the code you are stepping through.</p>
-<p>[caption id="" align="aligncenter" width="424"]<a href="http://commons.wikimedia.org/wiki/File:GDB_TUI.png"><img title="gdb in TUI mode" src="http://upload.wikimedia.org/wikipedia/commons/4/47/GDB_TUI.png" alt="" width="424" height="249" /></a> (image from wikimedia commons)[/caption]</p>
+<p><a href="http://commons.wikimedia.org/wiki/File:GDB_TUI.png"><img title="gdb in TUI mode" src="http://upload.wikimedia.org/wikipedia/commons/4/47/GDB_TUI.png" alt="" width="424" height="249" /></a> <br />(image from wikimedia commons)</p>

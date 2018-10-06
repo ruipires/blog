@@ -2,12 +2,8 @@
 layout: post
 status: publish
 published: true
-title: Should I write tests for legacy code if there&rsquo;s no time for refactoring?
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+title: Should I write tests for legacy code if there's no time for refactoring?
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt

@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Vagrant
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -29,7 +25,7 @@ categories:
 tags: []
 comments: []
 ---
-<p><a href="https://www.vagrantup.com/"><img class="alignright" src="https://www.vagrantup.com/images/logo_vagrant-81478652.png" alt="Vagrant logo" width="248" height="64" /></a></p>
+<p><a href="https://www.vagrantup.com/"><img class="alignright" src="{{ site.baseurl }}/assets/2014/vagrant.png" alt="Vagrant logo" width="248" height="64" /></a></p>
 <p>After hearing about it a <a href="http://www.se-radio.net/2014/07/episode-207-mitchell-hashimoto-on-the-vagrant-project/">software engineering radio episode</a>, and in several other podcasts/articles (<a href="http://twit.tv/show/floss-weekly">FLOSS weekly</a> maybe?), I decided to try using <a href="https://www.vagrantup.com/">vagrant</a>.</p>
 <p>Vagrant describes itself as a way to "Create and configure lightweight, reproducible, and portable development environments".</p>
 <p><a id="more"></a><a id="more-469"></a>From my current (limited) understanding of it, it describes a development environment (for most use cases, this is a virtual machine that we will use to test our project on). This description is in fact&nbsp;a Vagrantfile that is created when you initialise your project with the vagrant init command.</p>

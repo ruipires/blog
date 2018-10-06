@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: A decent windows console
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -26,5 +22,5 @@ comments: []
 <p>ConEmu can incorporate other windows as its tabs, so you can have putty, cmd.exe and others as tabs in the same main window. I tend to also have vim in there.</p>
 <p>ConEmu allows me to freely resize and even maximize the windows command prompt (take that&nbsp;<a href="http://sourceforge.net/projects/console/">Console2</a>!).</p>
 <p>Here's how it looks:</p>
-<p style="text-align: center;"><a href="http://www.sennin.pt/wp-content/uploads/2014/08/conemu1.png"><img class=" wp-image-449 aligncenter" alt="conemu1" src="http://www.sennin.pt/wp-content/uploads/2014/08/conemu1.png" width="538" height="364" /></a> <a href="http://www.sennin.pt/wp-content/uploads/2014/08/conemu2.png"><img class=" wp-image-450 aligncenter" alt="conemu2" src="http://www.sennin.pt/wp-content/uploads/2014/08/conemu2.png" width="536" height="364" /></a></p><br />
-Take it for a spin, it might just be a life-changer for you ;)</p>
+<p style="text-align: center;"><img class=" wp-image-449 aligncenter" alt="conemu1" src="{{ site.baseurl }}/assets/2014/conemu1.png" width="538" height="364" /><img class=" wp-image-450 aligncenter" alt="conemu2" src="{{ site.baseurl }}/assets/2014/conemu2.png" width="536" height="364" /></p><br />
+Take it for a spin, it might just be a life-changer for you ;)

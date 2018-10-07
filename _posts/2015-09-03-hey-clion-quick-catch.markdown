@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: 'Hey CLion, quick: Catch!'
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -62,12 +58,12 @@ comments:
 <p>I quickly got it running in <a href="https://www.jetbrains.com/clion/">CLion</a>. It really is easy to set up, being a single header file.</p>
 <p>&nbsp;</p>
 <p>This is what the <a href="https://www.jetbrains.com/clion/">CLion</a> window looks like in distraction free mode (I really like that mode) and after running it:</p>
-<p>[caption id="attachment_637" align="alignnone" width="598"]<a href="http://www.sennin.pt/wp-content/uploads/2015/08/clion_and_catch.png"><img class="size-full wp-image-637" src="http://www.sennin.pt/wp-content/uploads/2015/08/clion_and_catch.png" alt="Clion running a small Catch test project" width="598" height="738" /></a> Clion running a small Catch test project[/caption]</p>
+<p><img src="{{ site.baseurl }}/assets/2015/clion_and_catch.png" alt="Clion running a small Catch test project" width="598" height="738" /><br/> Clion running a small Catch test project</p>
 <p>&nbsp;</p>
 <p>Looks good, but since I'm really nit picky, heres a list of a few issues I would like to see fixed:</p>
 <p><strong>1 - Creating a second test cases confuses <a href="https://www.jetbrains.com/clion/">CLion's</a> code parser to the point where it thinks we are defining a duplicate function.</strong></p>
 <p>I get this warning message (only in the IDE, not when actually compiling, of course):</p>
-<p><a href="http://www.sennin.pt/wp-content/uploads/2015/08/clion_warning_1.png"><img class="alignnone size-full wp-image-640" src="http://www.sennin.pt/wp-content/uploads/2015/08/clion_warning_1.png" alt="clion warning about duplicate functions" width="506" height="95" /></a></p>
+<p><img src="{{ site.baseurl }}/assets/2015/clion_warning_1.png" alt="clion warning about duplicate functions" width="506" height="95" /></p>
 <p>&nbsp;</p>
 <p><strong>2 - Side effects of thinking the test case is a duplicate function</strong></p>
 <p>Any method, variable, etc used in that test is marked as unused. Note how someOtherMethod is greyed out.</p>

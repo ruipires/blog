@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Uncle Bob considers 'Interface' harmfull
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt

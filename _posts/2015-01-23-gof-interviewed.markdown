@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Gang of Four interviewed 20 years later
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -57,6 +53,8 @@ comments:
     of design patterns.&nbsp;Towards the end they also talk specifically about Singleton.
     You can see a transcript of that section here. [&#8230;]"
 ---
+
+<img src="{{ site.baseurl }}/assets/2015/azulejos-de-lisboa.png">
 <p>The <a href="http://www.se-radio.net">software engineering radio podcast</a> has a very interesting <a href="http://www.se-radio.net/2014/11/episode-215-gang-of-four-20-years-later/">interview</a> with the <a href="http://en.wikipedia.org/wiki/Design_Patterns">Gang of Four members, from "Software Design Patterns" fame</a>. It is roughly 75 minutes, but it is really nice seeing them comment on their book 20 years later.</p>
 <p>Here is a transcript I did of a portion of the podcast that I found extremely&nbsp;interesting (validating of my point of view, actually), that I just had to write down and keep, so I could quickly use it as a way to avoid discussions about the recurring Singleton-as-global (anti?) pattern.</p>
 <p><a id="more"></a><a id="more-536"></a></p>
@@ -72,4 +70,4 @@ comments:
 <p>Erich Gamma: And my rule is it is very easy to add global state, but it is very hard to take it out.</p>
 <p>Johannes&nbsp;Th&ouml;nes: So you think in retrospect you shouldn't have put it into the book ?</p>
 <p>Erich Gamma: You see, I love all the patterns that we have in the book. So that is something ... I made peace with them.</p>
-<p>Ralph Johnson: So I've got a version of Singleton that I've rewritten. I wrote it in a way to make it really clear that global state is bad and this is only what you do when you can't get rid of it. So we could have written it in a way that would have made that more clear. Its just that we didn't realize how people were going to interpret it. We didn't realize that people would have taken it as a justification for global state. You just put the book out there and see what people do with it.</blockquote></p>
+<p>Ralph Johnson: So I've got a version of Singleton that I've rewritten. I wrote it in a way to make it really clear that global state is bad and this is only what you do when you can't get rid of it. So we could have written it in a way that would have made that more clear. Its just that we didn't realize how people were going to interpret it. We didn't realize that people would have taken it as a justification for global state. You just put the book out there and see what people do with it.</blockquote>

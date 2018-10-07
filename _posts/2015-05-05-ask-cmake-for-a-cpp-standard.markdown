@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: A Better way to ask cmake for a C++ standard
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -45,6 +41,6 @@ comments:
 <p>1 - It (and quite possibly other compilers) <a href="https://msdn.microsoft.com/en-us/library/hh567368.aspx">does not support the entirety of the C++11 standard yet</a>. This will force CMake to fail, because it cannot fulfil our request.</p>
 <p>2 - Visual Studio has no flag to select what standard to use (unlike gcc and clang). This means that if we wanted to keep our code frozen in C++98/C++03 mode, there is just no way to do it. Also, we are always on their "latest" supported version, there is no going back.</p>
 <h1>So what can we do?</h1><br />
-We can use CMake's <a href="http://www.cmake.org/cmake/help/v3.2/command/target_compile_features.html">target_compile_features</a>, were we can be more fine grained and specify what language features we want to use.</p>
+We can use CMake's <a href="http://www.cmake.org/cmake/help/v3.2/command/target_compile_features.html">target_compile_features</a>, were we can be more fine grained and specify what language features we want to use.
 <p>There is a <a href="http://www.cmake.org/cmake/help/v3.2/prop_gbl/CMAKE_CXX_KNOWN_FEATURES.html#prop_gbl:CMAKE_CXX_KNOWN_FEATURES">list of know feature you can choose from</a>, and CMake will make sure they are all available to you, or it will fail when configuring your project. Note that it may not add any compilation flag, if it does not need to.</p>
 <p>A special thank you to <a href="http://stackoverflow.com/users/2428389/steveire">steveire</a> on Stack Overflow that helped me get this working with my <a href="https://www.biicode.com/sennin/deckbox_loader">biicode block</a>&nbsp;by <a href="http://stackoverflow.com/questions/30042047/using-cmakes-target-compile-features-with-biicode">answering my question</a>.</p>

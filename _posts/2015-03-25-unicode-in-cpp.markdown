@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Unicode in C++
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -30,4 +26,4 @@ comments: []
 <p>The talk explains&nbsp;the motivations behind unicode, how it was created, how it evolved into what it is today, how it relates with other character encodings and what the diferences between different unicode encodings are, etc.</p>
 <p>By the end of the talk I was an UTF-8 fan.</p>
 <p>The talk is useful even if you don't ever plan to touch a single line of C++ code. Most of it is about unicode in general, and the last section talks about current&nbsp;unicode support in C++ libraries.</p>
-<p>https://www.youtube.com/watch?v=MW884pluTw8</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MW884pluTw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

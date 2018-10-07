@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Setting the c++ standard using cmake
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -59,7 +55,7 @@ comments:
   content: "[&#8230;] A while back I wrote a post about how to set the c++ standard
     with cmake. [&#8230;]"
 ---
-<p><strong>Note</strong>: I have written an update to this post <a href="http://www.sennin.pt/2015/05/05/ask-cmake-for-a-cpp-standard/">here</a>.</p>
+<p><strong>Note</strong>: I have written an update to this post <a href="{{ site.baseurl }}/2015/05/05/ask-cmake-for-a-cpp-standard">here</a>.</p>
 <p>I'm currently trying to convert an existing code base from Makefiles to CMake. I'm doing this in order to showcase the advantages we can have by switching to CMake. Its an unofficial conversion, so I am not changing anything in the official repo. I plan on just having a bunch of CMakeLists.txt that I will then use a custom script to copy over the original source tree.</p>
 <p><a id="more"></a><a id="more-512"></a>The current code base is using C++98. We plan on changing this, but we need to fight our battles one at a time.</p>
 <p>Apparently shared_ptr was changed with C++11 to avoid explicit uses of operator bool. This <a href="http://stackoverflow.com/questions/7580009/gcc-error-cannot-convert-const-shared-ptr-to-bool-in-return">stackoverflow post</a> explains the issue.</p>
@@ -73,7 +69,7 @@ set_property(TARGET module1 PROPERTY CXX_STANDARD 98)<br />
 set_property(TARGET module1 PROPERTY CXX_STANDARD_REQUIRED ON)<br />
 </pre><br />
 But when generating the build/project files for Visual Studio, we get this error message:</p>
-<p><a href="http://www.sennin.pt/wp-content/uploads/2015/01/cmake_gui_1.png"><img class=" size-full wp-image-515 aligncenter" src="http://www.sennin.pt/wp-content/uploads/2015/01/cmake_gui_1.png" alt="cmake_gui_1" width="600" height="426" /></a></p>
+<p><img src="{{ site.baseurl }}/assets/2015/cmake_gui_1.png" width="600" height="426" /></a></p>
 <p>&nbsp;</p>
 <p>Apparently either the CMake folks don't know what flags to set in Visual Studio to force C++98 compliance (I highly doubt that), or there is no way to ask Visual Studio to conform to a particular standard version.</p>
 <p>There is only going forward, no looking back I guess.</p>

@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: My VIM configuration - part I
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -38,99 +34,107 @@ comments: []
 <p>Before we start: I use Vundle, a VIM plugin manager that lets you install plugins directly from git (github by default). For this to work, you need to have git available as a shell command.</p>
 <h1>Step 1 - Setup Vundle</h1><br />
 Add this to your vimrc file (ignore the line numbers shown here, they are just meant to help me refer to a particular line in my posts):</p>
-<pre>"""""" Use Vundle """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br />
-set nocompatible<br />
-filetype off<br />
-set rtp+=~/.vim/bundle/vundle/<br />
-call vundle#rc()</p>
-<p>"""""" Plugins """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""<br />
-Plugin 'gmarik/vundle'<br />
-</pre><br />
+{% highlight vimscript %}
+"""""" Use Vundle """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+"""""" Plugins """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Plugin 'gmarik/vundle'
+{% endhighlight %}
 After this, restart your vim (or reload vimrc by typing :source % in the vim command line).</p>
 <p>It should still look the same old boring defaults.</p>
-<p><a href="http://www.sennin.pt/wp-content/uploads/2015/01/step1.png"><img class="alignnone size-full wp-image-554" src="http://www.sennin.pt/wp-content/uploads/2015/01/step1.png" alt="step1" width="578" height="194" /></a></p>
+<p><img src="{{ site.baseurl }}/assets/2015/step1.png" width="578" height="194" /></p>
 <p>This screenshot shows MacVim, but if you are running another Vim flavor, you should also see a clunky toolbar. Keep reading, we will hide&nbsp;it&nbsp;;)</p>
+
 <h1>Step 2 - Setup colortheme and GUI&nbsp;options</h1><br />
 Modify your vimrc to look like this:</p>
-<pre>"""""" Use Vundle<br />
-set nocompatible<br />
-filetype off<br />
-set rtp+=~/.vim/bundle/vundle/<br />
-call vundle#rc()</p>
-<p>"""""" Plugins<br />
-Plugin 'gmarik/vundle'<br />
-Plugin 'oceandeep'<br />
-Plugin 'cthulhian'</p>
-<p>"""""" GUI specific options<br />
-if has("gui_running")<br />
-colorscheme cthulhian<br />
-set guioptions-=T "disable gui toolbar<br />
-endif<br />
-</pre><br />
+{% highlight vimscript %}
+"""""" Use Vundle
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+"""""" Plugins
+Plugin 'gmarik/vundle'
+Plugin 'oceandeep'
+Plugin 'cthulhian'
+"""""" GUI specific options
+if has("gui_running")
+colorscheme cthulhian
+set guioptions-=T "disable gui toolbar
+endif
+{% endhighlight %}
+
 Reload it, and ask Vundle to install plugins by invoking the :BundleInstall command in vim.</p>
 <p>Reload it again and it should now look like this:</p>
-<p><img class="alignnone size-full wp-image-555" src="http://www.sennin.pt/wp-content/uploads/2015/01/step2.png" alt="step2" width="599" height="194" /></p>
+<p><img src="{{ site.baseurl }}/assets/2015/step2.png" width="599" height="194" /></p>
 <p>I have been using the oceandeep colortheme for quite a few years now. I love it. I have recently discovered cthulhian, which slightly tweaks some colors in oceandeep (you need to have both installed for cthulhian to work). This is my new favorite theme!</p>
 <p>Another noteworthy theme you might be interested in is <a href="http://ethanschoonover.com/solarized">solarized</a>.</p>
 <h1>step 3 - customize the status line</h1><br />
 We will be installing vim-airline. For it to fully work, it needs a patched font installed (to show some extra symbols).</p>
 <p>I recommend installing Source Code Pro for Powerline. Powerline was the first&nbsp;vim plugin that did something like this.</p>
 <p>Adapt your vimrc to look like this:</p>
-<pre>"""""" Use Vundle<br />
-set nocompatible<br />
-filetype off<br />
-set rtp+=~/.vim/bundle/vundle/<br />
-call vundle#rc()</p>
-<p>"""""" Plugins<br />
-Plugin 'gmarik/vundle'<br />
-Plugin 'oceandeep'<br />
-Plugin 'cthulhian'<br />
-Plugin 'vim-airline'</p>
-<p>"""""" GUI specific options<br />
-if has("gui_running")<br />
-colorscheme cthulhian<br />
-set guioptions-=T "disable gui toolbar<br />
-set guifont=Source\ Code\ Pro\ for\ Powerline:h18<br />
-endif</p>
-<p>"""""" generic options<br />
-set laststatus=2 "always show status line</p>
-<p>"""""" configure plugin: vim-airline<br />
-let g:airline_powerline_fonts=1</p>
-<p></pre><br />
+
+{% highlight vimscript %}
+"""""" Use Vundle
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+"""""" Plugins
+Plugin 'gmarik/vundle'
+Plugin 'oceandeep'
+Plugin 'cthulhian'
+Plugin 'vim-airline'
+"""""" GUI specific options
+if has("gui_running")
+colorscheme cthulhian
+set guioptions-=T "disable gui toolbar
+set guifont=Source\ Code\ Pro\ for\ Powerline:h18
+endif
+"""""" generic options
+set laststatus=2 "always show status line
+"""""" configure plugin: vim-airline
+let g:airline_powerline_fonts=1
+{% endhighlight %}
+
 Reload it, run :BundleInstall and restart vim.<br />
 It should now look like this:<br />
-<a href="http://www.sennin.pt/wp-content/uploads/2015/01/step3.png"><img class="alignnone size-full wp-image-557" src="http://www.sennin.pt/wp-content/uploads/2015/01/step3.png" alt="step3" width="931" height="337" /></a></p>
-<p>&nbsp;</p>
+<img src="{{ site.baseurl }}/assets/2015/step3.png" width="931" height="337" /></p>
+
 <h1>step 4 - add more visual tweaks</h1><br />
 Adapt your vimrc to look like this</p>
-<pre>"""""" Use Vundle<br />
-set nocompatible<br />
-filetype off<br />
-set rtp+=~/.vim/bundle/vundle/<br />
-call vundle#rc()</p>
-<p>"""""" Plugins<br />
-Plugin 'gmarik/vundle'<br />
-Plugin 'oceandeep'<br />
-Plugin 'cthulhian'<br />
-Plugin 'vim-airline'</p>
-<p>"""""" GUI specific options<br />
-if has("gui_running")<br />
-colorscheme cthulhian<br />
-set guioptions-=T "disable gui toolbar<br />
-set guifont=Source\ Code\ Pro\ for\ Powerline:h18<br />
-endif</p>
-<p>"""""" generic options<br />
-set laststatus=2 "always show status line<br />
-set number "show line number<br />
-set nowrap "do not wrap lines<br />
-set listchars=tab:>-,trail:~,extends:>,precedes:< "show tabs, whitespace and line overflow/underflow<br />
-set wildmode=longest:full "when choosing, show longest match<br />
-set wildmenu "and show the remaining options in a menu</p>
-<p>"""""" configure plugin: vim-airline<br />
-let g:airline_powerline_fonts=1</p>
-<p></pre><br />
+
+{% highlight vimscript %}
+"""""" Use Vundle
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+"""""" Plugins
+Plugin 'gmarik/vundle'
+Plugin 'oceandeep'
+Plugin 'cthulhian'
+Plugin 'vim-airline'
+"""""" GUI specific options
+if has("gui_running")
+colorscheme cthulhian
+set guioptions-=T "disable gui toolbar
+set guifont=Source\ Code\ Pro\ for\ Powerline:h18
+endif
+"""""" generic options
+set laststatus=2 "always show status line
+set number "show line number
+set nowrap "do not wrap lines
+set listchars=tab:>-,trail:~,extends:>,precedes:< "show tabs, whitespace and line overflow/underflow
+set wildmode=longest:full "when choosing, show longest match
+set wildmenu "and show the remaining options in a menu
+"""""" configure plugin: vim-airline
+let g:airline_powerline_fonts=1
+{% endhighlight %}
+
 The extra options are commented inline. You can also run :help listchars, for example, to get the full description on that option.</p>
 <p>These are the first things I add to a fresh Vim installation. I hope they help you.</p>
 <p>I plan on doing a few more posts on particular Vim plugins that turned out to be life changers.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>

@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: Biicode
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -88,14 +84,14 @@ INFO: Looking for boost/fusion...<br />
 WARN: Can't find block candidate for: boost/fusion<br />
 INFO: Analyzing compatibility for found dependencies...<br />
 </pre><br />
-It seems they have not yet fully mapped all the boost includes into the <a href="https://github.com/biicode/boost">boost biicode block</a>. Or maybe the message is just for header only boost sub libraries? I know I am being nitpicky here, but I hate warning messages (<a href="http://www.gotw.ca/publications/c++cs.htm">I know I'm not alone</a>).</p>
+It seems they have not yet fully mapped all the boost includes into the <a href="https://github.com/biicode/boost">boost biicode block</a>. Or maybe the message is just for header only boost sub libraries? I know I am being nitpicky here, but I hate warning messages (<a href="http://www.gotw.ca/publications/c++cs.htm">I know I'm not alone</a>).
 <p>These unresolved dependencies are also visible in the <a href="https://www.biicode.com/sennin/deckbox_loader">web page representing my block</a> (just click "Block Dependencies").</p>
 <p>Overall I am very impressed with biicode and highly recommend anyone who is tired of messing with dependencies manually to try it out.</p>
 <p>Seeing biicode detect the dependencies from just the includes in my&nbsp;source files, downloading, configuring, compiling them&nbsp;and then handling all of the Cmakefile.txt generation and compiling my sources and linking the result with the dependencies it detected is a great experience (I was half expecting it to fail midway and ask me to do something manually).</p>
 <p>I have also tried out CLion (but I will leave that for another post). Both CLion and biicode use CMake as a foundation. They work very well together (and <a href="http://blog.jetbrains.com/clion/2015/03/when-clion-met-biicode/">work is&nbsp;being done to make sure they do</a>).</p>
 <p>A word of advise: if you are experimenting with biicode and plan on trying CLion on that project, make sure you specify the CLion layout when you initialize your biicode project.</p>
 <pre>bii init -l clion prj_name</pre><br />
-This will not harm your command line interactions with biicode and will ensure CLion will fully understand it.</p>
+This will not harm your command line interactions with biicode and will ensure CLion will fully understand it.
 <p>&nbsp;</p>
 <p>If you use my block, please let me know. Happy biicoding!</p>
 <p>&nbsp;</p>

@@ -3,11 +3,7 @@ layout: post
 status: publish
 published: true
 title: my comments about redundant comments
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
+author: Rui Pires
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
@@ -34,24 +30,29 @@ comments: []
 <p>All was good. But admittedly a bit boring at times.</p>
 <p>A few years passed, and I kept (trying) to follow that rule, but things didn't always work out. Sometimes I would not have enough time to document everything, and would just document the essential parts, but would feel bad for not reaching the level of quality I had set myself up to.</p>
 <p>I then read <a href="https://sites.google.com/site/unclebobconsultingllc/books">Clean Code</a>, and it caused me to rethink many of my assumptions. Time to put into practise the last paragraph of the <a href="http://agilemanifesto.org/principles.html">Agile Manifesto</a>:</p>
-<blockquote><p>At regular intervals, the team reflects on how<br />
+<blockquote>At regular intervals, the team reflects on how<br />
 to become more effective, then tunes and adjusts<br />
-its behavior accordingly.</blockquote><br />
+its behavior accordingly.</blockquote>
 Consider what you are actually contributing to the project when you write this documentation:</p>
-<pre>/**<br />
-* @brief Default constructor.<br />
-*/<br />
-Card();<br />
-</pre><br />
-Yes. I can see its a default constructor.</p>
-<p>Or this one:</p>
-<pre>/**<br />
-* @brief Gets the converted mana cost of the card.<br />
-* @return The mana cost of the card.<br />
-*/<br />
-ManaCost getConvertedManaCost() const<br />
-</pre><br />
-Yes, yes. Two lines in the documentation restating what anyone can clearly see in the method signature.</p>
+
+{% highlight cpp %}
+/**
+  * @brief Default constructor.
+  */
+Card();
+{% endhighlight %}
+
+Yes. I can see its a default constructor.
+Or this one:
+{% highlight cpp %}
+/**
+  * @brief Gets the converted mana cost of the card.
+  * @return The mana cost of the card.
+  */
+ManaCost getConvertedManaCost() const
+{% endhighlight %}
+
+Yes, yes. Two lines in the documentation restating what anyone can clearly see in the method signature.
 <p>It would be far more useful to invest time in the description of what those two classes (Card and ManaCost) represent, than to add redundant information.</p>
 <p>If you are not&nbsp;diligent enough to keep these useless comments up to date with any code refactors you do, you will end up with a far worse kind of documentation. The outdated and potentially misleading kind.</p>
 <p>And after all this I had convinced myself.<br />
@@ -60,4 +61,4 @@ From now on I will:</p>
 <li>Not waste time or effort on redundant doxygen comments.</li>
 <li>Only write them if they add extra information that you cannot get by just reading the public facing code (e.g. the method signatures).</li>
 <li>Often remove these redundant comments from code I happen to refactor.</li><br />
-</ul></p>
+</ul>

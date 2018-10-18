@@ -24,7 +24,7 @@ categories:
 - c++
 - interview
 - Books
-tags: []
+tags: [c++, interviews, books]
 banner: '/assets/2015/azulejos-de-lisboa.png'
 comments:
 - id: 5709

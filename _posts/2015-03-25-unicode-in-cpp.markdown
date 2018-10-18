@@ -17,7 +17,7 @@ date_gmt: '2015-03-25 01:10:33 +0000'
 categories:
 - articles
 - c++
-tags: []
+tags: [articles, c++]
 banner: '/assets/2015/rosetta_notes.png'
 comments: []
 ---

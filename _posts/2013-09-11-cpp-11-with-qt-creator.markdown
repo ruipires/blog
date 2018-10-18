@@ -15,7 +15,7 @@ categories:
 - tools
 - examples
 - c++
-tags: []
+tags: [tools, c++, examples]
 comments:
 - id: 5545
   author: Tim

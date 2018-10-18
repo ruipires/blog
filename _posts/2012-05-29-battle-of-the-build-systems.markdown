@@ -13,7 +13,7 @@ date: '2012-05-29 14:45:25 +0000'
 date_gmt: '2012-05-29 14:45:25 +0000'
 categories:
 - tools
-tags: []
+tags: [tools]
 comments:
 - id: 16
   author: Sennin &raquo; Battle of the Build Systems &#8211; GNU Make

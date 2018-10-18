@@ -21,8 +21,9 @@ categories:
 - tools
 - c++
 - cmake
-tags: []
+tags: [tools, c++, cmake]
 banner: '/assets/2015/cash_register.png'
+cover: '/assets/2015/cash_register/cover.jpg'
 comments:
 - id: 5722
   author: Sennin &raquo; Setting the c++ standard using cmake

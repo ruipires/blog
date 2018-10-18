@@ -20,7 +20,7 @@ date: '2015-01-30 22:45:10 +0000'
 date_gmt: '2015-01-30 22:45:10 +0000'
 categories:
 - tools
-tags: []
+tags: [tools]
 banner: '/assets/2015/vim.png'
 comments: []
 ---

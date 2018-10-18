@@ -13,8 +13,7 @@ date: '2012-11-22 18:04:41 +0000'
 date_gmt: '2012-11-22 18:04:41 +0000'
 categories:
 - c++
-tags:
-- links
+tags: [c++]
 comments: []
 ---
 <p>If you are into C++ programming (<a href="http://www.google.com/search?q=modern+c%2B%2B">the modern kind</a>), and dont know <a href="http://isocpp.org">isocpp.org</a>, you&nbsp;definitively&nbsp;should.</p>

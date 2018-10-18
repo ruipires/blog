@@ -13,9 +13,7 @@ date: '2013-01-30 17:32:51 +0000'
 date_gmt: '2013-01-30 17:32:51 +0000'
 categories:
 - articles
-tags:
-- nacl
-- webrtc
+tags: [articles]
 comments: []
 ---
 <p>Just finished listening to another video I saved in my <a href="http://getpocket.com/">pocket list</a>.<br />

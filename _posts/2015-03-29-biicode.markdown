@@ -23,7 +23,7 @@ categories:
 - tools
 - c++
 - cmake
-tags: []
+tags: [tools, c++, cmake]
 banner: '/assets/2015/honeycomb.png'
 comments:
 - id: 5707

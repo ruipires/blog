@@ -19,7 +19,7 @@ date: '2015-02-08 12:11:03 +0000'
 date_gmt: '2015-02-08 12:11:03 +0000'
 categories:
 - rant
-tags: []
+tags: [rant]
 banner: '/assets/2015/duplicate_stamp.png'
 comments: []
 ---

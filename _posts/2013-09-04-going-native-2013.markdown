@@ -13,7 +13,7 @@ date: '2013-09-04 21:45:01 +0000'
 date_gmt: '2013-09-04 21:45:01 +0000'
 categories:
 - c++
-tags: []
+tags: [c++]
 comments: []
 ---
 <p>For anyone who stumbles upon this, I'm currently enjoying the streaming presentations from this year's edition of GoingNative.<br />

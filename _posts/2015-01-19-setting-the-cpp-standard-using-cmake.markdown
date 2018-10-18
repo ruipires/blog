@@ -21,7 +21,7 @@ categories:
 - tools
 - c++
 - cmake
-tags: []
+tags: [tools, c++, cmake]
 banner: '/assets/2015/speed-telegraph.png'
 comments:
 - id: 5687

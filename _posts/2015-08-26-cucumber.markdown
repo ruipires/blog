@@ -22,8 +22,9 @@ date: '2015-08-26 23:16:52 +0000'
 date_gmt: '2015-08-26 23:16:52 +0000'
 categories:
 - Books
-tags: []
+tags: [books]
 banner: '/assets/2015/cucumber.png'
+cover: '/assets/2015/cucumber/cover.jpg'
 comments: []
 ---
 <p>I finally finished reading the &ldquo;<a href="https://pragprog.com/book/hwcuc/the-cucumber-book">Cucumber book</a>&rdquo;. I started reading this book a while ago.</p>

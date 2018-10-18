@@ -13,7 +13,7 @@ date: '2014-02-08 14:40:31 +0000'
 date_gmt: '2014-02-08 14:40:31 +0000'
 categories:
 - contributions
-tags: []
+tags: [contributions]
 comments: []
 ---
 <p>Open source projects flourish when lots of small contributions are made.<br />

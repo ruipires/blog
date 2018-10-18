@@ -22,7 +22,7 @@ date: '2014-10-30 18:11:10 +0000'
 date_gmt: '2014-10-30 18:11:10 +0000'
 categories:
 - tools
-tags: []
+tags: [tools]
 comments: []
 ---
 <p><a href="https://www.vagrantup.com/"><img class="alignright" src="{{ site.baseurl }}/assets/2014/vagrant.png" alt="Vagrant logo" width="248" height="64" /></a></p>

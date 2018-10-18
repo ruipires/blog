@@ -13,7 +13,7 @@ date: '2013-07-01 21:44:19 +0000'
 date_gmt: '2013-07-01 21:44:19 +0000'
 categories:
 - rant
-tags: []
+tags: [rant]
 comments: []
 ---
 <p>Let me start by saying I agree with the <a href="http://www.drdobbs.com/architecture-and-design/the-misplaced-obsession-with-simplicity/240157265">article</a> posted at <a href="http://www.drdobbs.com/">Dr. Dobb's</a> by Mr. <a href="http://www.drdobbs.com/authors/Andrew-Binstock">Andrew Binstock</a>.<br />

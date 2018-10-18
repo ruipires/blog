@@ -18,7 +18,7 @@ date: '2015-01-01 22:08:00 +0000'
 date_gmt: '2015-01-01 22:08:00 +0000'
 categories:
 - tools
-tags: []
+tags: [tools]
 comments: []
 ---
 <p>It is no secret that I am a fan of the <a href="http://qt-project.org/">Qt</a> project. I like how it promisses, and can deliver the capability to develop a cross platform UI.</p>

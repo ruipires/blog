@@ -14,8 +14,7 @@ date_gmt: '2012-12-18 17:12:23 +0000'
 categories:
 - articles
 - c++
-tags:
-- design
+tags: [articles, c++]
 comments: []
 ---
 <p>I just read a very interesting <a href="http://cpp-next.com/archive/2012/08/evil-or-just-misunderstood/">article</a> about throwing exceptions from destructors,&nbsp;by Jon Kalb and&nbsp;<a href="http://daveabrahams.com/" rel="external">Dave Abrahams</a>.</p>

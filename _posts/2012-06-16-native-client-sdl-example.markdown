@@ -14,10 +14,7 @@ date_gmt: '2012-06-16 22:57:45 +0000'
 categories:
 - examples
 - c++
-tags:
-- nacl
-- naclports
-- sdl
+tags: [c++, examples]
 comments:
 - id: 5515
   author: coldev

@@ -18,7 +18,7 @@ date: '2014-09-19 00:38:45 +0000'
 date_gmt: '2014-09-19 00:38:45 +0000'
 categories:
 - contributions
-tags: []
+tags: [contributions]
 comments: []
 ---
 <p>Gumbo is, other&nbsp;than the <a href="http://en.wikipedia.org/wiki/Gumbo">soup</a>&nbsp;and an <a href="http://en.wikipedia.org/wiki/Dr._John%27s_Gumbo">album from Dr. John&nbsp;</a>,&nbsp;also a HTML5 parsing C (C99) <a href="https://github.com/google/gumbo-parser">library</a>.</p>

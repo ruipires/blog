@@ -16,7 +16,7 @@ date: '2015-01-11 13:04:00 +0000'
 date_gmt: '2015-01-11 13:04:00 +0000'
 categories:
 - articles
-tags: []
+tags: [articles]
 banner: '/assets/2015/switch-board.png'
 comments: []
 ---

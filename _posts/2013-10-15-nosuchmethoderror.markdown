@@ -14,7 +14,7 @@ date_gmt: '2013-10-15 15:20:14 +0000'
 categories:
 - rant
 - java
-tags: []
+tags: [rant, java]
 comments: []
 ---
 <p>Well, I'm always learning.<br />

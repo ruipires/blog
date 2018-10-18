@@ -13,7 +13,7 @@ date: '2014-03-23 17:14:30 +0000'
 date_gmt: '2014-03-23 17:14:30 +0000'
 categories:
 - Uncategorized
-tags: []
+tags: [tools, cmake, c++]
 comments:
 - id: 5706
   author: Sennin &raquo; Biicode

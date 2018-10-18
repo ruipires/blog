@@ -19,7 +19,7 @@ date: '2015-01-15 02:26:00 +0000'
 date_gmt: '2015-01-15 02:26:00 +0000'
 categories:
 - interview
-tags: []
+tags: [interview]
 banner: '/assets/2015/clock-cogs.png'
 comments: []
 ---

@@ -13,7 +13,7 @@ date: '2014-12-30 03:37:16 +0000'
 date_gmt: '2014-12-30 03:37:16 +0000'
 categories:
 - Books
-tags: []
+tags: [books]
 comments: []
 ---
 <p><img src="{{ site.baseurl }}/assets/2014/bedside.jpg" /></p>

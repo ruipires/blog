@@ -13,9 +13,7 @@ date: '2014-06-11 19:20:49 +0000'
 date_gmt: '2014-06-11 19:20:49 +0000'
 categories:
 - articles
-tags:
-- Testing
-- refactoring
+tags: [articles]
 comments: []
 ---
 <p>I found this collection of opinions about what to do when faced with legacy code in a tight schedule very interesting.<br />

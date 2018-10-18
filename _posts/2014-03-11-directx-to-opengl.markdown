@@ -13,7 +13,7 @@ date: '2014-03-11 16:35:35 +0000'
 date_gmt: '2014-03-11 16:35:35 +0000'
 categories:
 - tools
-tags: []
+tags: [tools]
 comments: []
 ---
 <p><span style="line-height: 1.5em;">Just saw this on Slashdot:&nbsp;</span><a style="line-height: 1.5em;" href="http://games.slashdot.org/story/14/03/11/1216204/valve-open-sources-their-directx-to-opengl-layer">Valve Open Sources Their DirectX To OpenGL Layer</a><span style="line-height: 1.5em;">.</span></p>

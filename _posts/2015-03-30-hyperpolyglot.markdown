@@ -16,6 +16,12 @@ categories:
 tags: [tools]
 banner: '/assets/2015/dictionary.png'
 comments: []
+cover: '/assets/2015/cover/dictionary.jpg'
+cover_url: "https://www.flickr.com/photos/tcp909/6304394866"
+cover_author_name: Trevor
+cover_author_url: "https://www.flickr.com/photos/tcp909/"
+cover_license: CC BY-SA 2.0
+cover_license_url: "https://creativecommons.org/licenses/by-sa/2.0/"
 ---
 <p>Back in 2012 I tweeted this:</p>
 <blockquote class="twitter-tweet" lang="en"><p>Is there a c++/java dictionary? Stuff like this would make sense for teaching new languages to programmers. Languages do overlap a lot.</p>&mdash; ruipires (@ruipires) <a href="https://twitter.com/ruipires/status/231035031148187649">August 2, 2012</a></blockquote><br />

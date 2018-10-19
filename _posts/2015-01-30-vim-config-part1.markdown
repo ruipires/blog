@@ -22,6 +22,12 @@ categories:
 - tools
 tags: [tools]
 banner: '/assets/2015/vim.png'
+cover: '/assets/2015/cover/equalizer.jpg'
+cover_url: "https://www.flickr.com/photos/fireatwillrva/15935878695/"
+cover_author_name: Will Fisher
+cover_author_url: "https://www.flickr.com/photos/fireatwillrva/"
+cover_license_url: "https://creativecommons.org/licenses/by-sa/2.0/"
+cover_license: CC BY-SA 2.0
 comments: []
 ---
 <p>I have been using Vim and gVim for a few years now.</p>

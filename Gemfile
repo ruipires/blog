@@ -12,7 +12,12 @@ ruby RUBY_VERSION
 gem "jekyll", "3.6.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+#gem "minima", "~> 2.0"
+#gem "jasper2", :path => "/home/vagrant/jasper2/jasper2-2.1.9.gem"
+#gem "jasper2", :path => "/vagrant/_gems"
+gem "jasper2"
+#gem 'jekyll-theme-prologue', '~> 0.3.3'
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

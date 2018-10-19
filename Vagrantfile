@@ -2,13 +2,13 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-#  config.vm.box = "bento/ubuntu-17.10"
   config.vm.box = "bento/ubuntu-18.04"
   config.vm.network "forwarded_port", guest: 4000, host: 4000 # http port
   config.vm.network "forwarded_port", guest: 35729, host: 35729 # for liveserve.js
+  config.vm.hostname = "jekyll.blog"
 
   config.vm.provider "virtualbox" do |vb|
-      vb.name = "blog - jekyll"
+    vb.name = "blog - jekyll"
     vb.memory = "512"
     vb.cpus = 1
   end

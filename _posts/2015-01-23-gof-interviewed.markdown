@@ -26,6 +26,12 @@ categories:
 - Books
 tags: [c++, interviews, books]
 banner: '/assets/2015/azulejos-de-lisboa.png'
+cover: '/assets/2015/cover/azulejos.jpg'
+cover_url: "https://www.flickr.com/photos/silviabes/10522661346/"
+cover_author_name: Silvia Benedet
+cover_author_url: "https://www.flickr.com/photos/silviabes/"
+cover_license_url: "https://creativecommons.org/licenses/by-nc/2.0/"
+cover_license: CC BY-NC 2.0
 comments:
 - id: 5709
   author: Arne Mertz

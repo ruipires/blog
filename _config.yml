@@ -16,21 +16,26 @@
 title: Sennin
 email: rui@sennin.pt
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My name is Rui Pires and this is my blog.<br/>
+  I am a remote software developer working in the Azores,
+  hence the name Sennin (仙人) which can be translated as "hermit".
+  
+cover: /assets/blog-cover.jpg
+logo: /assets/small-logo.png
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ruipires
 github_username:  ruipires
 permalink: /:year/:month/:day/:title
-paginate: 5
+#permalink: /:title
+paginate: 10
 
 # Build settings
 markdown: kramdown
 highlighter: true
-theme: minima
-gems:
+theme: jasper2
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
@@ -39,6 +44,17 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
-plugins_dir:
-  - jekyll-paginate
-  - _plugins
+#plugins_dir:
+#  - jekyll-paginate
+#  - _plugins
+
+# jasper2 settings
+navigation: True
+twitter: ruipires
+
+
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml

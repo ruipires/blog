@@ -21,6 +21,12 @@ categories:
 - rant
 tags: [rant]
 banner: '/assets/2015/duplicate_stamp.png'
+cover: '/assets/2015/cover/twin_windows.jpg'
+cover_url: "https://pixabay.com/en/window-prague-twins-facade-wall-941625/"
+cover_author_name: MartinHarry
+cover_author_url: "https://pixabay.com/en/users/MartinHarry-1411929/"
+cover_license_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+cover_license: Public Domain
 comments: []
 ---
 <p>It is generally a good idea to think about why you are doing things the way you currently doing them.</p>

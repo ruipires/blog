@@ -25,6 +25,12 @@ categories:
 - cmake
 tags: [tools, c++, cmake]
 banner: '/assets/2015/honeycomb.png'
+cover: '/assets/2015/cover/honeycomb.jpg'
+cover_url: "https://www.flickr.com/photos/youarelee/4055666770/"
+cover_author_name: youarelee
+cover_author_url: "https://www.flickr.com/photos/youarelee/"
+cover_license: CC BY-SA 2.0
+cover_license_url: "https://creativecommons.org/licenses/by-sa/2.0/"
 comments:
 - id: 5707
   author: drodri

@@ -32,7 +32,7 @@ categories:
 tags: [tools, c++]
 banner: '/assets/2015/sea_lion.png'
 
-cover: '/assets/2015/sea_lion/cover.jpg'
+cover: '/assets/2015/cover/sea_lion.jpg'
 cover_url: https://www.flickr.com/photos/ekilby/18542881393/in/photolist-ufz7BB-dby5Fr-dbz92L-dbz7ov-965BLx-96ox67-96jZan-a4GLMh-96oeFq-pT92XA-ecWBVU-bDgXGE-bqY5Ay-9YEWjX-bSbDwa-9YHR5y-9YEWfv-aPkmcV-bzf2KB-9YEWiM-dbz9cC-7t3Cpw-bC39Zj-69xJmL-nc98r8-fbCMgN-na6Gww-dVigAk-dVoT1U-oh41hw-fkyXcg-bVvLRL-o2oCPv-fD6Xt8-ayDv7q-a2N1Zr
 cover_author_name: Eric Kilby
 cover_author_url: https://www.flickr.com/photos/ekilby/

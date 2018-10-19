@@ -18,9 +18,15 @@ categories:
 - c++
 - podcast
 tags: [c++, podcast]
-banner: '/assets/2015/CppCast.png'
+cover: '/assets/2015/cover/crows.jpg'
+cover_url: "https://www.flickr.com/photos/marfis75/15868939251/"
+cover_author_name: Martin Fisch
+cover_author_url: "https://www.flickr.com/photos/marfis75/"
+cover_license: CC BY-SA 2.0
+cover_license_url: "https://creativecommons.org/licenses/by-sa/2.0/"
 comments: []
 ---
+<img src="/assets/2015/CppCast.png"/>
 <p>I listen to few technology oriented podcasts, but up until recently I was yet to find a podcast focusing on C++.<br />
 This has changed now that I found <a href="http://cppcast.com/">CppCast</a>. Its tagline is "The first podcast by C++ developers for C++ developers!".</p>
 <p><a id="more"></a><a id="more-600"></a>I usually have a big backlog of podcast episodes to listen to, but <a href="http://cppcast.com/">CppCast</a> episodes are consumed as soon as they come out. Needless to say I have been enjoying the topics and how they are presented. The level of detail is just right to keep it interesting. High level enough to not be boring, but with enough details to actually be informative.</p>

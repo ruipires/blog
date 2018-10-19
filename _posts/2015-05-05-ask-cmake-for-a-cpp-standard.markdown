@@ -23,7 +23,12 @@ categories:
 - cmake
 tags: [tools, c++, cmake]
 banner: '/assets/2015/cash_register.png'
-cover: '/assets/2015/cash_register/cover.jpg'
+cover: '/assets/2015/cover/cash_register.jpg'
+cover_url: https://www.flickr.com/photos/andrewbain/5577254902/
+cover_author_name: Taber Andrew Bain
+cover_author_url: https://www.flickr.com/photos/andrewbain/
+cover_license: CC BY-NC 2.0
+cover_license_url: https://creativecommons.org/licenses/by-nc/2.0/
 comments:
 - id: 5722
   author: Sennin &raquo; Setting the c++ standard using cmake

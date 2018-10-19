@@ -24,7 +24,12 @@ categories:
 - Books
 tags: [books]
 banner: '/assets/2015/cucumber.png'
-cover: '/assets/2015/cucumber/cover.jpg'
+cover: '/assets/2015/cover/cucumber.jpg'
+cover_url: https://www.flickr.com/photos/stuart_spivack/464718611/
+cover_author_name: stu_spivack
+cover_author_url: https://www.flickr.com/photos/stuart_spivack/
+cover_license_url: https://creativecommons.org/licenses/by-sa/2.0/
+cover_license: CC BY-SA 2.0
 comments: []
 ---
 <p>I finally finished reading the &ldquo;<a href="https://pragprog.com/book/hwcuc/the-cucumber-book">Cucumber book</a>&rdquo;. I started reading this book a while ago.</p>

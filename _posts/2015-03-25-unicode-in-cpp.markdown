@@ -19,6 +19,12 @@ categories:
 - c++
 tags: [articles, c++]
 banner: '/assets/2015/rosetta_notes.png'
+cover: '/assets/2015/cover/rosetta_stone.jpg'
+cover_url: "https://www.flickr.com/photos/nrbelex/454711486/"
+cover_author_name: Brett Weinstein
+cover_author_url: "https://www.flickr.com/photos/nrbelex/"
+cover_license_url: "https://creativecommons.org/licenses/by-sa/2.0/"
+cover_license: CC BY-SA 2.0
 comments: []
 ---
 <p>While looking for good resources to learn a little bit more about Unicode, and how to support it in my C++ applications, I stumbled upon this great video from the <a href="http://cppnow.org/">C++Now</a> 2014 conference.</p>

@@ -1,5 +1,8 @@
 ---
 layout: post
+navigation: True
+class: post-template
+subclass: 'post'
 status: publish
 published: true
 title: Why C++, interview with Herb Sutter

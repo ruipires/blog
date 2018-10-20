@@ -1,5 +1,8 @@
 ---
 layout: post
+navigation: True
+class: post-template
+subclass: 'post'
 status: publish
 published: true
 title: Setting the c++ standard using cmake

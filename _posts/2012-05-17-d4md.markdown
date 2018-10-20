@@ -1,5 +1,8 @@
 ---
 layout: project
+navigation: True
+class: post-template
+subclass: 'post'
 status: publish
 published: true
 title: D4MD

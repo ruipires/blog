@@ -51,6 +51,7 @@ exclude:
 # jasper2 settings
 navigation: True
 twitter: ruipires
+github: ruipires 
 
 
 plugins_dir: [_plugins]

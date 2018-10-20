@@ -1,3 +1,4 @@
 .vagrant
 .sass-cache
 _site
+_gems

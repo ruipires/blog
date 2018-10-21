@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: My thoughts on "The Misplaced Obsession with Simplicity"
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 wordpress_id: 354

@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: GDB TUI mode
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "It's funny how sometimes you use a tool for years, but still find out new

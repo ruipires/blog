@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Biicode
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p>I have been meaning to try <a href=\"https://www.biicode.com\">biicode</a>

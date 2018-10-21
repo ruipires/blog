@@ -6,12 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: D4MD
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 wordpress_id: 111

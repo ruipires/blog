@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Uncle Bob considers 'Interface' harmfull
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p><a href=\"http://en.wikipedia.org/wiki/Robert_Cecil_Martin\">Uncle
@@ -21,6 +20,13 @@ categories:
 - articles
 tags: [articles]
 banner: '/assets/2015/switch-board.png'
+cover: '/assets/2015/cover/switch-board.jpg'
+cover_url: "https://www.flickr.com/photos/caseorganic/4891657729"
+cover_author_name: Amber Case
+cover_author_url: "https://www.flickr.com/photos/caseorganic/"
+cover_license_url: "https://creativecommons.org/licenses/by-nc/2.0/"
+cover_license: CC BY-NC 2.0
+cover_adapted: True
 comments: []
 ---
 <p><a href="http://en.wikipedia.org/wiki/Robert_Cecil_Martin">Uncle Bob</a> wrote a very interesting <a href="http://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html">article</a> about how he considers the interface keyword to cause more harm than good.</p>

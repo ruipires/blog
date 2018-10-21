@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Unicode in C++
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p>While looking for good resources to learn a little bit more about Unicode,

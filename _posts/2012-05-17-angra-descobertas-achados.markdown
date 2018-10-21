@@ -6,12 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Angra, Descobertas & Achados
-author:
-  display_name: Rui Pires
-  login: rui
-  email: rui@sennin.pt
-  url: http://www.sennin.pt
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: A point and click adventure game featuring Angra do Heroísmo, a  UNESCO World

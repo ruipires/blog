@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: my comments about redundant comments
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p>It is generally a good idea to think about why you are doing things the

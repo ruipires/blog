@@ -6,9 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: A Better way to ask cmake for a C++ standard
-author: Rui Pires
-author_login: rui
-author_email: rui@sennin.pt
+author: rui
 author_url: http://www.sennin.pt
 excerpt: "<p>A while back I wrote a post about <a href=\"http://www.sennin.pt/2015/01/19/setting-the-cpp-standard-using-cmake/\">how
   to set the c++ standard with cmake</a>.</p><p>It revolved around setting

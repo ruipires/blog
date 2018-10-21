@@ -9,8 +9,7 @@ subclass: 'post'
 status: publish
 published: true
 title: CppCast
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p>I listen to few technology oriented podcasts, but up until recently I was

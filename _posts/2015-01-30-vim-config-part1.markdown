@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: My VIM configuration - part I
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p>I have been using Vim and gVim for a few years now.</p><p>Vim has a steep

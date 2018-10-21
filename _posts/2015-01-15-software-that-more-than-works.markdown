@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Software that "more than works"
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p>Now that is an interesting notion.</p><p>Having working software is not
@@ -24,6 +23,12 @@ categories:
 - interview
 tags: [interview]
 banner: '/assets/2015/clock-cogs.png'
+cover: '/assets/2015/cover/clock-cogs.jpg'
+cover_url: "https://www.flickr.com/photos/chrisdlugosz/4324706280/"
+cover_author_name: Chris Dlugosz
+cover_author_url: "https://www.flickr.com/photos/chrisdlugosz/"
+cover_license_url: "https://creativecommons.org/licenses/by/2.0/"
+cover_license: CC BY 2.0
 comments: []
 ---
 <p>Now that is an interesting notion.</p>

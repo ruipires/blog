@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: The importance of a native UI
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "It is no secret that I am a fan of the <a href=\"http://qt-project.org/\">Qt</a>

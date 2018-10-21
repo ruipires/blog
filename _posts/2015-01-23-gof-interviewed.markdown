@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Gang of Four interviewed 20 years later
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p>The <a href=\"http://www.se-radio.net\">software engineering radio

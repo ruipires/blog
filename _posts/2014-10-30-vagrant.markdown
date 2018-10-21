@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Vagrant
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<a href=\"https://www.vagrantup.com/\"><img class=\"alignright\"

@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Enabling C++11 in Qt Creator
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 wordpress_id: 376

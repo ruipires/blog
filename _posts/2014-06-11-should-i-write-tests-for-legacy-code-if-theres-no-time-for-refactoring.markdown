@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Should I write tests for legacy code if there's no time for refactoring?
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 wordpress_id: 445

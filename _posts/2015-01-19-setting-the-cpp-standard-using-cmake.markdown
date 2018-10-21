@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Setting the c++ standard using cmake
-author: Rui Pires
-author_login: rui
+author: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt
 excerpt: "<p><strong>Note</strong>: I have written an update to this post <a href=\"http://www.sennin.pt/2015/05/05/ask-cmake-for-a-cpp-standard/\">here</a>.</p><p>I'm
@@ -26,6 +25,13 @@ categories:
 - cmake
 tags: [tools, c++, cmake]
 banner: '/assets/2015/speed-telegraph.png'
+cover: '/assets/2015/cover/speed-telegraph.jpg'
+cover_url: "https://commons.wikimedia.org/wiki/File:Engine_Order_Telegraph.jpg"
+cover_author_name: Lance Fairbanks
+cover_author_url:
+cover_license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+cover_license: CC BY-SA 3.0
+cover_adapted: True
 comments:
 - id: 5687
   author: Joao Figueiredo

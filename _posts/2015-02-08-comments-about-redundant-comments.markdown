@@ -41,7 +41,7 @@ comments: []
 <blockquote>At regular intervals, the team reflects on how<br />
 to become more effective, then tunes and adjusts<br />
 its behavior accordingly.</blockquote>
-Consider what you are actually contributing to the project when you write this documentation:</p>
+<p>Consider what you are actually contributing to the project when you write this documentation:</p>
 
 {% highlight cpp %}
 /**

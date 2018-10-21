@@ -23,5 +23,5 @@ comments: []
 <p>ARM, BD Software,&nbsp;Bloomberg,&nbsp;Dinkum Ware,&nbsp;DRW Trading group,&nbsp;Google, HP,&nbsp;HSA Foundation,&nbsp;IBM,&nbsp;Intel,&nbsp;Microsoft, OpenMP,&nbsp;Pearson,&nbsp;Plum Hall, Symbio, Vollmann Engineering.</p>
 <p>Not to mention the directors and officers of the organization, that include some names I highly respect and look up to.</p>
 <p>The goal is</p>
-<blockquote><p>&nbsp;to support the C++ software developer community and promote the understanding and use of modern Standard C++ on all compilers and platforms.</blockquote></p>
+<blockquote><p>&nbsp;to support the C++ software developer community and promote the understanding and use of modern Standard C++ on all compilers and platforms.</p></blockquote>
 <div>Sounds great to me!</div>

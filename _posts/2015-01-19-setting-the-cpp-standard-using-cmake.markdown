@@ -77,8 +77,8 @@ set_property(TARGET module1 PROPERTY CXX_STANDARD 98)<br />
 # ask for c++98 to be required (and not just a best-effort request)<br />
 set_property(TARGET module1 PROPERTY CXX_STANDARD_REQUIRED ON)<br />
 </pre><br />
-But when generating the build/project files for Visual Studio, we get this error message:</p>
-<p><img src="{{ site.baseurl }}/assets/2015/cmake_gui_1.png" width="600" height="426" /></a></p>
+<p>But when generating the build/project files for Visual Studio, we get this error message:</p>
+<p><img src="{{ site.baseurl }}/assets/2015/cmake_gui_1.png" width="600" height="426" /></p>
 <p>&nbsp;</p>
 <p>Apparently either the CMake folks don't know what flags to set in Visual Studio to force C++98 compliance (I highly doubt that), or there is no way to ask Visual Studio to conform to a particular standard version.</p>
 <p>There is only going forward, no looking back I guess.</p>

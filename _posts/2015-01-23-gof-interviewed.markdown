@@ -67,7 +67,8 @@ comments:
 <p>Here is a transcript I did of a portion of the podcast that I found extremely&nbsp;interesting (validating of my point of view, actually), that I just had to write down and keep, so I could quickly use it as a way to avoid discussions about the recurring Singleton-as-global (anti?) pattern.</p>
 <p><a id="more"></a><a id="more-536"></a></p>
 <p>This took place at around minute 56 onward, when they were commenting on how the patterns in their book stood the test of time.</p>
-<blockquote><p>Ralph Johnson: (...) I would say that creational patterns, we have been making comments about Singleton, but in fact all the creational patterns are not used as much as they were back when we wrote the book because dependency injection is sort of an alternative pattern that ...</p>
+<blockquote>
+<p>Ralph Johnson: (...) I would say that creational patterns, we have been making comments about Singleton, but in fact all the creational patterns are not used as much as they were back when we wrote the book because dependency injection is sort of an alternative pattern that ...</p>
 <p>Erich Gamma: Decouples things</p>
 <p>Ralph Johnson: is sort of a better way of doing things. There are still cases where the other patterns make sense, but they just make sense a lot less frequently because dependency injection is often a better way of doing things.</p>
 <p>Johannes: So you mentioned in the beginning, so I'm just saying the word of the pattern: Singleton.</p>
@@ -78,4 +79,5 @@ comments:
 <p>Erich Gamma: And my rule is it is very easy to add global state, but it is very hard to take it out.</p>
 <p>Johannes&nbsp;Th&ouml;nes: So you think in retrospect you shouldn't have put it into the book ?</p>
 <p>Erich Gamma: You see, I love all the patterns that we have in the book. So that is something ... I made peace with them.</p>
-<p>Ralph Johnson: So I've got a version of Singleton that I've rewritten. I wrote it in a way to make it really clear that global state is bad and this is only what you do when you can't get rid of it. So we could have written it in a way that would have made that more clear. Its just that we didn't realize how people were going to interpret it. We didn't realize that people would have taken it as a justification for global state. You just put the book out there and see what people do with it.</blockquote>
+<p>Ralph Johnson: So I've got a version of Singleton that I've rewritten. I wrote it in a way to make it really clear that global state is bad and this is only what you do when you can't get rid of it. So we could have written it in a way that would have made that more clear. Its just that we didn't realize how people were going to interpret it. We didn't realize that people would have taken it as a justification for global state. You just put the book out there and see what people do with it.</p>
+</blockquote>

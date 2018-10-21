@@ -32,7 +32,7 @@ comments: []
 <li>Using SRP is not realistic in a real, complex, project</li>
 <li>This is just adding (runtime) overhead, because you will need to instantiate more objects and call more methods to get the job done.</li><br />
 </ol><br />
-Here are my counter arguments, and some quotes from "uncle" <a href="http://www.cleancoder.com/">Bob Martin</a>'s book Clean Code.</p>
+<p>Here are my counter arguments, and some quotes from "uncle" <a href="http://www.cleancoder.com/">Bob Martin</a>'s book Clean Code.</p>
 <p>Please feel free to comment, agreeing or disagreeing with me. I do love to change my mind, when I feel I'm learning in the process.</p>
 <h2>1.&nbsp;Too many files will make the system hard to reason and work with.</h2><br />
 I'll start by quoting Bob Martin:

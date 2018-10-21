@@ -18,7 +18,7 @@ categories:
 tags: [tools]
 comments: []
 ---
-<p style="text-align: center;"><img title="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." src="{{ site.baseurl }}/assets/2012/swordfish.jpg" alt="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." width="652" height="315" /></a></p><br />
+<p style="text-align: center;"><img title="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." src="{{ site.baseurl }}/assets/2012/swordfish.jpg" alt="yes, it's a stupid reference, but I like the eye candy. It's also the only build system I can remember seeing in a movie." width="652" height="315" /></p><br />
 <p>Following my <a title="Battle of the build systems" href="http://www.sennin.pt/?p=19">previous post</a> where I described what I was looking for in a build system, here I take a look at GNU make, and why I'm not using it.</p>
 <p>&nbsp;</p>
 <p><strong>GNU Make</strong></p>

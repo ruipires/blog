@@ -43,7 +43,7 @@ comments: []
 </ol><br />
 ...
 <div><br clear="none" />Yeah, now this is a bit of cleverness by&nbsp;the authors&nbsp;here. They took the four statements on the manifesto of agile software development&nbsp;and then they essentially moved to the left and added another column.</div>
-<div>So the agile manifesto says we value working software as opposed to something I can't remember [Yeah, probably documents]</div></p>
+<div>So the agile manifesto says we value working software as opposed to something I can't remember [Yeah, probably documents]</div>
 <div>And this says well we value working software, but it also has to be well crafted. And the notion of well crafted is that it <span style="text-decoration: underline;">more than works</span>.</div>
 <div>Software that works is fine, but software that works and can't be maintained or can't and understood is a frightening thing to have on a system, and unfortunately most of the systems out there are in an unfortunate state of disrepair, and this disrepair is hidden from the users.</div>
 <div>The symptom is that Managers will ask for new features or&nbsp;bug repairs, and the estimates for those new features and bug repairs begin to stretch.</div>

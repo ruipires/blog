@@ -3,7 +3,7 @@ layout: post
 status: publish
 published: true
 title: 'Hey CLion, quick: Catch!'
-author: Rui Pires
+author: rui
 author_login: rui
 author_email: rui@sennin.pt
 author_url: http://www.sennin.pt

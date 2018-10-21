@@ -1,0 +1,11 @@
+rui:
+  username: rui
+  name: Rui Pires
+  url_full: http://www.sennin.pt/about/
+  url: /about
+  bio: Working as a professional full time remote developer from the Azores since 2011.
+  picture: assets/rui.png
+  twitter: ruipires
+  github: ruipires
+  cover: False
+#  cover: assets/images/-cover.jpg

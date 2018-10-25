@@ -16,12 +16,12 @@ namespace :site do
 
   desc "Generate the site and serve locally"
   task :serve do
-    sh "bundle exec jekyll serve --host 0.0.0.0"
+    sh "bundle exec jekyll serve --incremental --host 0.0.0.0"
   end
 
   desc "Generate the site and serve locally, refreshing browser on changes"
   task :liveserve do
-    sh "bundle exec jekyll liveserve --host 0.0.0.0"
+    sh "bundle exec jekyll liveserve --incremental --host 0.0.0.0"
   end
 
   desc "Generate the site, serve locally and watch for changes"

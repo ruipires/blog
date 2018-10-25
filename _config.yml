@@ -51,6 +51,8 @@ navigation: True
 twitter: ruipires
 github: ruipires 
 
+google_analytics: UA-30944614-1
+google_site_verification: 95_d8hcENZX0UvvX8v7F7ExMr4iCEjQzsBcqNMsdyDo
 
 plugins_dir: [_plugins]
 plugins: [jekyll-paginate, jekyll-feed]

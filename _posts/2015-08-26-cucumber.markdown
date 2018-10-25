@@ -6,8 +6,7 @@ subclass: 'post'
 status: publish
 published: true
 title: Cucumber
-author_login: rui
-author: rui@sennin.pt
+author: rui
 author_url: http://www.sennin.pt
 excerpt: "<p>I finally finished reading the &ldquo;<a href=\"https://pragprog.com/book/hwcuc/the-cucumber-book\">Cucumber
   book</a>&rdquo;. I started reading this book a while ago.</p><p>Even before

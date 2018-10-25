@@ -37,6 +37,6 @@ namespace :site do
   task :deploy do
     # Generate the site
     sh "bundle exec jekyll build"
-    sh "rsync -e \"ssh -l #{USERNAME} -p #{REMOTE_PORT}\" -ravz --delete --prune-empty-dirs --progress --checksum -h #{GENERATED} #{REMOTE_LOCATION}"
+    sh "rsync -e \"ssh -l #{USERNAME} -p #{REMOTE_PORT}\" -ravz --delete --prune-empty-dirs --checksum -h #{GENERATED} #{REMOTE_LOCATION}"
   end
 end

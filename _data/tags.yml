@@ -1,0 +1,43 @@
+books:
+  name: books
+  description: Books that caught my attention.
+  cover: /assets/blog-cover.png
+interviews:
+  name: interviews
+  description: Interviews that I found interesting.
+  cover: /assets/blog-cover.png
+articles:
+  name: articles
+  description: Articles worth taking note of.
+  cover: /assets/blog-cover.png
+rants:
+  name: rants
+  description: When I need to get on a soapbox and explain how/why I think the way I do.
+  cover: /assets/blog-cover.png
+c++:
+  name: c++
+  description: Posts about the C++ programming language.
+  cover: /assets/blog-cover.png
+java:
+  name: java
+  description: Posts about the Java programming language.
+  cover: /assets/blog-cover.png
+tools:
+  name: tools
+  description: Tools I use or find worth talking about.
+  cover: /assets/blog-cover.png
+examples:
+  name: examples
+  description: Examples I have written up and you might find useful.
+  cover: /assets/blog-cover.png
+
+
+# relative tag order:
+# books
+# interviews
+# articles
+# rants
+# c++
+# java
+# tools
+# examples

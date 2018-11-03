@@ -23,10 +23,10 @@ wordpress_url: http://www.sennin.pt/?p=536
 date: '2015-01-23 01:20:46 +0000'
 date_gmt: '2015-01-23 01:20:46 +0000'
 categories:
-- c++
+- books
 - interview
-- Books
-tags: [c++, interviews, books]
+- c++
+tags: [books, interviews, c++]
 banner: '/assets/2015/azulejos-de-lisboa.png'
 cover: '/assets/2015/cover/azulejos.jpg'
 cover_url: "https://www.flickr.com/photos/silviabes/10522661346/"

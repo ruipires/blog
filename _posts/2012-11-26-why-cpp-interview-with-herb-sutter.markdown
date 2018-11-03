@@ -14,9 +14,9 @@ wordpress_url: http://www.sennin.pt/?p=273
 date: '2012-11-26 13:33:43 +0000'
 date_gmt: '2012-11-26 13:33:43 +0000'
 categories:
-- c++
 - interview
-tags: [c++, interviews]
+- c++
+tags: [interviews, c++]
 comments: []
 ---
 <p>I just listened to a podcast interview with <a href="http://www.herbsutter.com">Herb Sutter</a>, by <a href="http://www.hanselminutes.com/">Scott Hanselman</a>, and it is really worth sharing.</p>

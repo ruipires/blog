@@ -21,8 +21,7 @@ date_gmt: '2015-05-05 21:29:31 +0000'
 categories:
 - tools
 - c++
-- cmake
-tags: [tools, c++, cmake]
+tags: [tools, c++]
 banner: '/assets/2015/cash_register.png'
 cover: '/assets/2015/cover/cash_register.jpg'
 cover_url: https://www.flickr.com/photos/andrewbain/5577254902/

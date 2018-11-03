@@ -18,6 +18,8 @@ date_gmt: '2012-05-17 11:22:25 +0000'
 categories: []
 tags: []
 comments: []
+permalink: /prj/angra-descobertas-e-achados
+cover: /assets/prj/ada.jpg
 ---
 <p>Dating back to 1999 / 2000, this was my first commercial project.</p>
 <p>The game was developed by a 3 man team, in which I split the programming work with <a href="http://azorian.pt.vu/">Tiago "Azorian" Rodrigues</a>.</p>

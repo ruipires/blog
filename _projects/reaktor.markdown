@@ -17,6 +17,8 @@ date_gmt: '2012-05-17 12:19:57 +0000'
 categories: []
 tags: []
 comments: []
+permalink: /prj/reaktor
+cover: /assets/prj/reaktor.jpg
 ---
 <p>Developed in 2004, with my brother-in-arms <a href="http://azorian.pt.vu/">Tiago "Azorian" Rodrigues</a>, this was our way of completing a Computer Graphics assignment in college.</p>
 <p>We neede to show what we learned about OpenGL, and what better way to do that than to implement a first person shooter game engine prototype from scratch featuring a physics engine, networked multiplayer mode, quake map loading (we were able to edit the maps in <a href="http://quark.sourceforge.net/">QuArK</a>), <a href="http://en.wikipedia.org/wiki/Binary_space_partitioning">BSP </a>partitioning.</p>

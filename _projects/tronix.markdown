@@ -17,6 +17,8 @@ date_gmt: '2012-05-17 17:55:42 +0000'
 categories: []
 tags: []
 comments: []
+permalink: /prj/tronix
+cover: /assets/prj/tronix.jpg
 ---
 <p>Dating back to 2004, this was another Computer Graphics college assignment.</p>
 <p>Splitting the work with <a href="http://azorian.pt.vu/">Tiago "Azorian" Rodrigues</a>&nbsp;we did this rather convoluted <a href="http://en.wikipedia.org/wiki/Vrml">VRML </a>interactive environemnt.</p>

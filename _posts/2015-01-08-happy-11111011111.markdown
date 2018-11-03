@@ -14,8 +14,8 @@ wordpress_url: http://www.sennin.pt/?p=491
 date: '2015-01-08 01:03:00 +0000'
 date_gmt: '2015-01-08 01:03:00 +0000'
 categories:
-- rant
-tags: [rant]
+- rants
+tags: [rants]
 comments: []
 ---
 <p>A few hours before 2015 it dawned on me, and I couldn't help it but share it with those&nbsp;around me: 2015 in binary is 1111101111 which is a palindromic number.</p>

@@ -20,8 +20,8 @@ wordpress_url: http://www.sennin.pt/?p=508
 date: '2015-01-15 02:26:00 +0000'
 date_gmt: '2015-01-15 02:26:00 +0000'
 categories:
-- interview
-tags: [interview]
+- interviews
+tags: [interviews]
 banner: '/assets/2015/clock-cogs.png'
 cover: '/assets/2015/cover/clock-cogs.jpg'
 cover_url: "https://www.flickr.com/photos/chrisdlugosz/4324706280/"

@@ -16,7 +16,7 @@ date_gmt: '2012-11-20 12:25:54 +0000'
 categories:
 - articles
 - c++
-tags: [c++, articles]
+tags: [articles, c++]
 comments: []
 ---
 <p>It is no secret that I am a big fan of C++. I love learning new ways to make my code more elegant and performant.</p>

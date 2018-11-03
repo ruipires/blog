@@ -30,6 +30,11 @@ permalink: /:year/:month/:day/:title
 #permalink: /author/:author
 paginate: 10
 
+collections:
+  projects:
+    output: true
+
+
 # Build settings
 markdown: kramdown
 highlighter: true

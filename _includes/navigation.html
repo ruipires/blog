@@ -1,4 +1,16 @@
 <ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href="{{site.baseurl}}/">Home</a></li>
-    <li class="nav-about" role="menuitem"><a href="{{site.baseurl}}/about/">About</a></li>
+    <li class="nav-home" role="menuitem">
+        <a href="{{site.baseurl}}/">Home</a>
+    </li>
+    <li class="nav-about" role="menuitem">
+        <a href="{{site.baseurl}}/about/">About</a>
+    </li>
+
+    {% for col in site.collections %}
+        {% if col.label != "posts" %}
+            <li class="nav-{{col.label}}" role="menuitem">
+                <a href="{{site.baseurl}}/{{col.label}}/">{{col.label}}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
 </ul>

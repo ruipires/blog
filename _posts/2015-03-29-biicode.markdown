@@ -22,10 +22,9 @@ wordpress_url: http://www.sennin.pt/?p=575
 date: '2015-03-29 23:30:05 +0000'
 date_gmt: '2015-03-29 23:30:05 +0000'
 categories:
-- tools
 - c++
-- cmake
-tags: [tools, c++, cmake]
+- tools
+tags: [c++, tools]
 banner: '/assets/2015/honeycomb.png'
 cover: '/assets/2015/cover/honeycomb.jpg'
 cover_url: "https://www.flickr.com/photos/youarelee/4055666770/"

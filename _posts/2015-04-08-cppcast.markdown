@@ -21,8 +21,7 @@ date: '2015-04-08 23:21:43 +0000'
 date_gmt: '2015-04-08 23:21:43 +0000'
 categories:
 - c++
-- podcast
-tags: [c++, podcast]
+tags: [c++]
 cover: '/assets/2015/cover/crows.jpg'
 cover_url: "https://www.flickr.com/photos/marfis75/15868939251/"
 cover_author_name: Martin Fisch

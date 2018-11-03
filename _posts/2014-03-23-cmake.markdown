@@ -1,6 +1,6 @@
 ---
 layout: post
-navigation: True
+avigation: True
 class: post-template
 subclass: 'post'
 status: publish
@@ -15,7 +15,7 @@ date: '2014-03-23 17:14:30 +0000'
 date_gmt: '2014-03-23 17:14:30 +0000'
 categories:
 - Uncategorized
-tags: [tools, cmake, c++]
+tags: [c++, tools]
 comments:
 - id: 5706
   author: Sennin &raquo; Biicode

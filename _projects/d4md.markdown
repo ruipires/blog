@@ -16,6 +16,8 @@ date_gmt: '2012-05-17 18:28:33 +0000'
 categories: []
 tags: []
 comments: []
+permalink: /prj/d4md
+cover: /assets/prj/D4MD.jpg
 ---
 <p>Developed in 2004/2005, as my final college project, this was a car simulator (i.e. game, with little game mechanics) featuring vehicle deformation.</p>
 <p>The game was developed using <a href="http://www.ogre3d.org">Ogre3D</a>, an open source, but highly capable 3D graphics engine for the graphics. We used <a href="http://en.wikipedia.org/wiki/Novodex">NovodeX </a>(later aquired by Ageia, and then by Nvidia which rebranded it as <a href="http://www.geforce.com/hardware/technology/physx">PhysX</a>), for the physics simulation.</p>

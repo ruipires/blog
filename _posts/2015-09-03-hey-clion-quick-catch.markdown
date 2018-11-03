@@ -27,9 +27,9 @@ wordpress_url: http://www.sennin.pt/?p=638
 date: '2015-09-03 18:30:25 +0000'
 date_gmt: '2015-09-03 18:30:25 +0000'
 categories:
-- tools
 - c++
-tags: [tools, c++]
+- tools
+tags: [c++, tools]
 banner: '/assets/2015/sea_lion.png'
 
 cover: '/assets/2015/cover/sea_lion.jpg'

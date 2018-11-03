@@ -20,8 +20,8 @@ wordpress_url: http://www.sennin.pt/?p=564
 date: '2015-02-08 12:11:03 +0000'
 date_gmt: '2015-02-08 12:11:03 +0000'
 categories:
-- rant
-tags: [rant]
+- rants
+tags: [rants]
 banner: '/assets/2015/duplicate_stamp.png'
 cover: '/assets/2015/cover/twin_windows.jpg'
 cover_url: "https://pixabay.com/en/window-prague-twins-facade-wall-941625/"

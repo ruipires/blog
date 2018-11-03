@@ -14,10 +14,10 @@ wordpress_url: http://www.sennin.pt/?p=376
 date: '2013-09-11 01:38:09 +0000'
 date_gmt: '2013-09-11 01:38:09 +0000'
 categories:
+- c++
 - tools
 - examples
-- c++
-tags: [tools, c++, examples]
+tags: [c++, tools, examples]
 comments:
 - id: 5545
   author: Tim

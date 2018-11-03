@@ -14,8 +14,8 @@ wordpress_url: http://www.sennin.pt/?p=310
 date: '2012-12-08 00:56:18 +0000'
 date_gmt: '2012-12-08 00:56:18 +0000'
 categories:
-- rant
-tags: [rant]
+- rants
+tags: [rants]
 comments: []
 ---
 <p>As those who work with me certainly know by now, I am a strong proponent for the <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">SRP</a>&nbsp;and try to practice it and convince others to do the same whenever I can.</p>

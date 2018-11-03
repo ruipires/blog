@@ -14,9 +14,9 @@ wordpress_url: http://www.sennin.pt/?p=391
 date: '2013-10-15 15:20:14 +0000'
 date_gmt: '2013-10-15 15:20:14 +0000'
 categories:
-- rant
+- rants
 - java
-tags: [rant, java]
+tags: [rants, java]
 comments: []
 ---
 <p>Well, I'm always learning.<br />

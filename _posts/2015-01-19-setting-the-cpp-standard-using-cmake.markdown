@@ -22,7 +22,7 @@ date_gmt: '2015-01-19 23:37:00 +0000'
 categories:
 - c++
 - tools
-tags: [c++, tools, c++]
+tags: [c++, tools]
 banner: '/assets/2015/speed-telegraph.png'
 cover: '/assets/2015/cover/speed-telegraph.jpg'
 cover_url: "https://commons.wikimedia.org/wiki/File:Engine_Order_Telegraph.jpg"

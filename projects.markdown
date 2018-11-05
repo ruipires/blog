@@ -14,5 +14,5 @@ cover: false
 class: 'tag-template'
 navigation: True
 cover: '/assets/cover/blueprint.jpg' #https://www.flickr.com/photos/internetarchivebookimages/14594097139/
-description: stuff for keeping me sharp
+description: what's been keeping me busy
 ---

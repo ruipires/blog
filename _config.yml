@@ -47,6 +47,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - Rakefile
 #plugins_dir:
 #  - jekyll-paginate
 #  - _plugins

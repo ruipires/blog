@@ -26,4 +26,3 @@ cover: /assets/prj/tronix.jpg
 <p>I guess it would be done in <a href="http://en.wikipedia.org/wiki/Webgl">WebGL </a>had it been developed today.</p>
 <p>&nbsp;</p>
 <p><iframe src="http://www.youtube.com/embed/4kO4vTt0nD0" frameborder="0" width="420" height="315"></iframe><br />
-[gallery exclude="97" columns="2" size="medium"]</p>

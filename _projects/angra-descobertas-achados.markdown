@@ -30,4 +30,3 @@ cover: /assets/prj/ada.jpg
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><iframe src="http://www.youtube.com/embed/uLxpgTRwSNo" frameborder="0" width="420" height="315"></iframe></p>
-<p>[gallery exclude="76" size="medium" columns="2"]</p>

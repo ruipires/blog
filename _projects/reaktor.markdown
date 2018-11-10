@@ -27,4 +27,3 @@ cover: /assets/prj/reaktor.jpg
 <p>Apart from <a href="http://www.opengl.org/">OpenGL</a>, we used <a href="http://www.libsdl.org/">SDL </a>for interacting with the OS and <a href="http://connect.creativelabs.com/openal/default.aspx">OpenAL </a>for sound.</p>
 <p>&nbsp;</p>
 <p><iframe src="http://www.youtube.com/embed/7boIboIEpXY" frameborder="0" width="420" height="315"></iframe><br />
-[gallery exclude="89" size="medium" columns="2"]</p>

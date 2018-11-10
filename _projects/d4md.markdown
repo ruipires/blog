@@ -28,4 +28,3 @@ cover: /assets/prj/D4MD.jpg
 <p>&nbsp;</p>
 <p><iframe src="http://www.youtube.com/embed/cWalXUvbQts" frameborder="0" width="420" height="315"></iframe></p>
 <p>&nbsp;</p>
-<p>[gallery columns="2" size="medium" exclude="124"]</p>

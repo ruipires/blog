@@ -38,7 +38,8 @@ collections:
 # Build settings
 markdown: kramdown
 highlighter: true
-theme: jasper2
+#theme: jasper2
+remote_theme: ruipires/jekyll-theme-geist
 
 exclude:
   - Gemfile

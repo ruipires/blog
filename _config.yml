@@ -37,7 +37,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-highlighter: true
+highlighter: rouge
 #theme: jasper2
 remote_theme: ruipires/jekyll-theme-geist
 
